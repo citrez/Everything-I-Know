@@ -2,5 +2,5 @@
 
 ### Links
 
-* [Incredible gamification of learning CSS](https://flukeout.github.io/)
+* [Incredible gamification of learning about CSS selectors](https://flukeout.github.io/) 
 
