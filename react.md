@@ -1,5 +1,7 @@
 ---
-description: React is a UI framework in Javascript
+description: >-
+  React is a UI framework in Javascript. It is useful for building
+  webapplications
 ---
 
 # React
