@@ -15,11 +15,20 @@ JSX syntax is very similar to HTML and is a way of writing HTML-like code within
 Babel is the transpiler of choice, it takes JSX and converts in to react elements - try it out on the [babel site](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.15.3&externalPlugins=&assumptions=%7B%7D)  
 Interpolation is putting javascript variables in JSX code so that they can be rendered dynamically as HTML. You do this with open and closed curly brakets, much like an F string in python.  
 There are two things in React to know about elements and components.   
-Elements are the chucks of JSX that we can put JS variables into.  
+Elements are the chucks of JSX that we can put JS variables into.
 
+```javascript
+const myItem = "Ezra"
+const myJSXelement = (
+    <ul>
+        <li>item1</li>
+        <li>item3</li>
+        <li>{myItem.toUpper()}</li>
+    </ul>
+)
+```
 
-  
-
+components are for reusabiliy. Components are a Javascript function that returns a React element \(or JSX\). 
 
 #### The DOM
 
@@ -32,5 +41,6 @@ The DOM stores a replresentation of an HTML document in a javascript object that
 ### Links
 
 * [React Tutorial](https://reactjs.org/tutorial/tutorial.html) - as usual often the best place to learn a thing is on the website of the thing
+* [React Docs](https://reactjs.org/docs/getting-started.html) - this is the place to go for docs
 * [3.5 hrs of React with Mike Dane](https://www.youtube.com/watch?v=ABQLwlE8MUA&ab_channel=MikeDane) 
 
