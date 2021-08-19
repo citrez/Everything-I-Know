@@ -9,6 +9,7 @@
   * [R](programming-languages/r/README.md)
     * [R Packages](programming-languages/r/r-packages.md)
 * [Life](life/README.md)
+  * [Quotes](life/quotes.md)
   * [Exercise](life/exercise.md)
   * [Happiness](life/happiness.md)
   * [Motivation](life/motivation.md)
@@ -26,4 +27,5 @@
     * [August](looking-back/2021/august.md)
 * [HTML](html.md)
 * [CSS](css.md)
+* [Other](other.md)
 
