@@ -22,6 +22,7 @@
   * [GGplot](data-visualisation/ggplot.md)
 * [React](react.md)
 * [Gitbook](gitbook.md)
+* [Git](git.md)
 * [Looking Back](looking-back/README.md)
   * [2021](looking-back/2021/README.md)
     * [August](looking-back/2021/august.md)
