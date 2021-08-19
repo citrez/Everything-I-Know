@@ -11,6 +11,9 @@ description: >-
 In plain vanilla javascript you can access objects in an HTML document and manipulate then. You write HTML and put a &lt;script scr = index.js&gt;&lt;/script&gt; tag at the bottom and then the JS can access and change the HTML.   
 React tries to be a little cleverer and lets you write Javascript within the HTML, one of the advantages is it makes it much easier to read.  
 The whole core of what Javascript is about is responding to users input. We can do this a little bit with CSS, but JS allows us to do this very flexibly to a whole host of events.  
+JSX syntax is very similar to HTML and is a way of writing HTML-like code within a JS file. It them needs to be transpiled into something that is javascript.   
+Babel is the transpiler of choice, it takes JSX and converts in to react elements - try it out on the [babel site](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.15.3&externalPlugins=&assumptions=%7B%7D)  
+Interpolation is putting javascript variables in JSX code so that they can be rendered dynamically as HTML.   
 
 
 #### The DOM

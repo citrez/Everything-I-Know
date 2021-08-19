@@ -6,3 +6,6 @@ description: >-
 
 # Other
 
+* [How does HTTPS work](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+* [building apps with serverless archetecture](https://aws.amazon.com/lambda/serverless-architectures-learn-more/)
+
