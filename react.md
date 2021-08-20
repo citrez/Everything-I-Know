@@ -31,6 +31,10 @@ const myJSXelement = (
 components are for reusabiliy. Components are a Javascript function that returns a React element \(or JSX\).   
 The convention, if you are using [create react app](https://reactjs.org/docs/create-a-new-react-app.html) is to make a src/components folder and put your components in there. The App\(\) component, by convention, wraps other components, much like the body tag contains everything in an HTML page. 
 
+#### The DOM
+
+React uses the DOM \(Document Object Model\), The DOM connected HTML pages, which disctate how a web pages are layed out, with JavaScript, a fully functional programming language.The DOM stores a replresentation of an HTML document in a javascript object that we can work with and manipulate. At the end of the day all react is doing, is manipulating the DOM in a smart way. 
+
 React doesnt want to change the UI unless it really has to. This is where hooks come in. 
 
 #### Hooks
@@ -53,11 +57,13 @@ a prob is a value which gets passed into a component thatinforms one aspect of w
 
 incrementBy is a prop. it is a value that is passed into the component that can be accessed via the props array.
 
-#### The DOM
+#### Styles
 
-React uses the DOM \(Document Object Model\), The DOM connected HTML pages, which disctate how a web pages are layed out, with JavaScript, a fully functional programming language.
+You can use props in your JSX stling to change the style based on the prop value
 
-The DOM stores a replresentation of an HTML document in a javascript object that we can work with and manipulate. At the end of the day all react is doing, is manipulating the DOM in a smart way. 
+#### External Style sheets
+
+There are probably the way to go. Take a look at [matial UI](https://material-ui.com/).
 
 ### 
 
