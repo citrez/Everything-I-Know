@@ -28,7 +28,8 @@ const myJSXelement = (
 )
 ```
 
-components are for reusabiliy. Components are a Javascript function that returns a React element \(or JSX\). 
+components are for reusabiliy. Components are a Javascript function that returns a React element \(or JSX\).   
+The convention, if you are using [create react app](https://reactjs.org/docs/create-a-new-react-app.html) is to make a src/components folder and put your components in there. The App\(\) component, by convention, wraps other components, much like the body tag contains everything in an HTML page. \`
 
 #### The DOM
 
