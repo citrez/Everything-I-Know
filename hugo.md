@@ -16,6 +16,7 @@ As is often the case often the best place to learn a resource is the offical doc
 ### Links
 
 * [Hugo Docs](https://gohugo.io/documentation/)
+* [Mike's Hugo Video Series](https://www.youtube.com/watch?v=bcme8AzVh6o&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&index=8&ab_channel=MikeDane)
 
 
 
