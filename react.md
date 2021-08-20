@@ -47,6 +47,12 @@ The above syntax sort of registers CurrentCount as a piece of state that we want
 
 a prob is a value which gets passed into a component thatinforms one aspect of what it does. Should I be thinking of an argument in a function?
 
+```javascript
+    <CountButton incrementBy = {7}/>
+```
+
+incrementBy is a prop. it is a value that is passed into the component that can be accessed via the props array.
+
 #### The DOM
 
 React uses the DOM \(Document Object Model\), The DOM connected HTML pages, which disctate how a web pages are layed out, with JavaScript, a fully functional programming language.
