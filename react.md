@@ -31,7 +31,10 @@ const myJSXelement = (
 components are for reusabiliy. Components are a Javascript function that returns a React element \(or JSX\).   
 The convention, if you are using [create react app](https://reactjs.org/docs/create-a-new-react-app.html) is to make a src/components folder and put your components in there. The App\(\) component, by convention, wraps other components, much like the body tag contains everything in an HTML page. 
 
-React doesnt want to change the UI unless it really has to. This is where hooks come in.   
+React doesnt want to change the UI unless it really has to. This is where hooks come in. 
+
+#### Hooks
+
 usestate\(\) is a hook. When we call usestate\(0\) for example, we get an array back, with 2 elements. The first is the value, 0. The second is a function.
 
 ```javascript
