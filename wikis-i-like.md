@@ -8,7 +8,7 @@ description: >-
 
 ### Wikis
 
-* [Nikita](https://wiki.nikitavoloboev.xyz/)
+* [Nikita](https://wiki.nikitavoloboev.xyz/) - this is the wiki that started this wiki
 
 
 

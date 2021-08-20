@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Resources of Resources](resources-of-resources.md)
 * [Meta](meta.md)
 * [Book Reviews](book-reviews.md)
 * [Programming Languages](programming-languages/README.md)
@@ -13,6 +14,7 @@
   * [Exercise](life/exercise.md)
   * [Happiness](life/happiness.md)
   * [Motivation](life/motivation.md)
+  * [Euntreprenuership](life/euntreprenuership.md)
 * [Wikis I like](wikis-i-like.md)
 * [Blogs I Like](blogs-i-like.md)
 * [Hugo](hugo.md)
