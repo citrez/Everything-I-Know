@@ -45,9 +45,15 @@ usestate\(\) is a hook. When we call usestate\(0\) for example, we get an array 
 
 ```javascript
 [CurrentCount, SetCurrentCount] = usestate(0)
+
+handleClick = () => {
+    SetCurrentCount(1)
+    }
 ```
 
 The above syntax sort of registers CurrentCount as a piece of state that we want react to keep track of.
+
+Then to change the value of CurrentCount you pass the value into the setCurrentCount function
 
 #### Prop
 
