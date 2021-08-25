@@ -22,7 +22,9 @@
 * [Data Science](data-science.md)
 * [Data Visualisation](data-visualisation/README.md)
   * [GGplot](data-visualisation/ggplot.md)
-* [React](react.md)
+* [JavaScript](javascript/README.md)
+  * [React](javascript/react.md)
+  * [Node.js](javascript/node.js.md)
 * [Gitbook](gitbook.md)
 * [Git](git.md)
 * [Looking Back](looking-back/README.md)
@@ -32,4 +34,5 @@
 * [Machine Learning](machine-learning.md)
 * [CSS](css.md)
 * [Other](other.md)
+* [Pics](pics.md)
 
