@@ -19,6 +19,12 @@ description: Resources and links for DataVis
 * [Colors in R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
 * [Find the exact color of any image online](https://imagecolorpicker.com/)
 
+### Adding fonts in R
+
+* [Google Fonts](https://fonts.google.com/)
+* [https://cran.rstudio.com/web/packages/showtext/vignettes/introduction.html](https://cran.rstudio.com/web/packages/showtext/vignettes/introduction.html)
+* [https://www.rdocumentation.org/packages/sysfonts/versions/0.8.3/topics/font\_add\_google](https://www.rdocumentation.org/packages/sysfonts/versions/0.8.3/topics/font_add_google)
+
 
 
 
