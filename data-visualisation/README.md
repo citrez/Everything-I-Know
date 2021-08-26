@@ -25,6 +25,11 @@ description: Resources and links for DataVis
 * [https://cran.rstudio.com/web/packages/showtext/vignettes/introduction.html](https://cran.rstudio.com/web/packages/showtext/vignettes/introduction.html)
 * [https://www.rdocumentation.org/packages/sysfonts/versions/0.8.3/topics/font\_add\_google](https://www.rdocumentation.org/packages/sysfonts/versions/0.8.3/topics/font_add_google)
 
+### Adding themes in R
+
+* [xkcd theme](https://stackoverflow.com/questions/12675147/how-can-we-make-xkcd-style-graphs)
+* [blog about themes](https://rfortherestofus.com/2019/08/themes-to-improve-your-ggplot-figures/)
+
 
 
 
