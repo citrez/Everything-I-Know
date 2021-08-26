@@ -15,6 +15,9 @@ description: Resources and links for DataVis
 ### Color Palletes
 
 * [Complete Refernce of color Palettes in R](https://github.com/EmilHvitfeldt/r-color-palettes)
+* [ggsci](https://www.rdocumentation.org/packages/ggsci/versions/2.9) - scientific color palletes
+* [Colors in R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
+* [Find the exact color of any image online](https://imagecolorpicker.com/)
 
 
 
