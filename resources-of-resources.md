@@ -9,4 +9,5 @@ description: >-
 
 * [All things coding and juypter](https://github.com/jupyter/jupyter/wiki)
 * [Open source computer Science degrees](https://github.com/ForrestKnight/open-source-cs-python)
+* [Best open data sources](https://learn.g2.com/open-data-sources)
 * 
