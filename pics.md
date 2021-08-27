@@ -10,6 +10,8 @@ description: JPEGs and PNGs speak louder than words
 
 
 
+![graph graph](.gitbook/assets/graph_graph.png)
+
 
 
 

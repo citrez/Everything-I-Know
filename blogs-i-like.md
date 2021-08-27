@@ -13,7 +13,8 @@ I use newsify to keep on top of the bloggers I like.
 * [Rebecca Barter](https://www.rebeccabarter.com/blog/2019-03-07_reproducible_pipeline/) - tidyverse, R, causal inference 
 * [DrSimon](https://drsimonj.svbtle.com/) - ggplot
 * [StoryBench](https://www.storybench.org/category/how-to/) - data vis in R
-
+* [Allison Hill](https://alison.rbind.io/) - great blogger and co-creator of blogdown
+* 
 
 
 

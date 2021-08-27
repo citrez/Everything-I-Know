@@ -6,9 +6,7 @@ description: >-
 
 # Introduction
 
-This is my personal wiki where I share 'everything I know' about the digital world as [digital garden](https://www.reddit.com/r/DigitalGardens/) in the form of an online [GitBook](https://app.gitbook.com/@ezracitron/s/everything-i-know/~/drafts/-MhJTm4D84VVaQ1-sBf-/gitbook) hosted on GitHub. 
-
-I will be updating this wiki quite often as I use it myself daily both to keep an account of things I know as well as things I want to know and everything in-between.
+This is my personal wiki where I share 'everything I know' about the digital world as [digital garden](https://www.reddit.com/r/DigitalGardens/) in the form of an online [GitBook](https://www.gitbook.com/) hosted on GitHub. I will be updating this wiki quite often as I use it myself daily both to keep an account of things I know as well as things I want to know and everything in-between.
 
 #### How to read this document
 
