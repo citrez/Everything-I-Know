@@ -1,5 +1,5 @@
 ---
-description: Pictures speak louder than words
+description: JPEGs and PNGs speak louder than words
 ---
 
 # Pics
