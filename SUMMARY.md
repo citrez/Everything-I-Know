@@ -37,4 +37,5 @@
 * [Pics](pics.md)
 * [NLP](nlp.md)
 * [Workflow](workflow.md)
+* [Mac](mac.md)
 
