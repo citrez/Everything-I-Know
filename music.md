@@ -6,4 +6,7 @@
 * ABBA
 * Dire Straights
 * Simon and Garfunkle
-* 
+* Lion King
+* Prince of Egypy
+* Future Nostalgia
+

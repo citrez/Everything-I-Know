@@ -12,7 +12,7 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 
 ### Commands
 
-* `git gui` - for getting up a graphical interface
+* `git gui` or  `gitk`- for getting up a graphical interface
 
 ### Links
 
