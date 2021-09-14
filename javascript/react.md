@@ -73,6 +73,14 @@ You can use props in your JSX stling to change the style based on the prop value
 
 There are probably the way to go. Take a look at [matial UI](https://material-ui.com/).
 
+
+
+### Material UI
+
+#### Typography Componnent
+
+This saves you from having to write &lt;h1&gt; tags etc. Instead you use a Typeography component with props \(arguemnt you pass into components, which are basically just functions that spit out JSX\) that define the way you want it to look
+
 ### 
 
 ### Links
