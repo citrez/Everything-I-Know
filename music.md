@@ -11,4 +11,6 @@
 * Future Nostalgia
 * pink floyd - \(some songs\)
 * Eric Clapton
-
+* Joe Bonamasa \(mix it up\)
+* My Chemical Romance \(Mix it up\)
+* 

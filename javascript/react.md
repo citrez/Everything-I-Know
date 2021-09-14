@@ -83,5 +83,6 @@ There are probably the way to go. Take a look at [matial UI](https://material-ui
 * [Net Ninja Youtube react tutorial](https://www.youtube.com/watch?v=pnhO8UaCgxg&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=4)
 * [styling CSS methods in JS](https://material-ui.com/guides/interoperability/)
 * [Material UI Tutorial](https://www.youtube.com/watch?v=vyJU9efvUtQ&ab_channel=TraversyMedia) - youtube video
+* [Net Ninja Material UI Tutorial](https://www.youtube.com/watch?v=ha3a63YjLro&list=PL4cUxeGkcC9gjxLvV4VEkZ6H6H4yWuS58&index=2&ab_channel=TheNetNinja) - best youtube series
 * [emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) - emmet is built into vs code and invaluable for shortcuts 
 
