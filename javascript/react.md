@@ -81,6 +81,14 @@ There are probably the way to go. Take a look at [matial UI](https://material-ui
 
 This saves you from having to write &lt;h1&gt; tags etc. Instead you use a Typeography component with props \(arguemnt you pass into components, which are basically just functions that spit out JSX\) that define the way you want it to look
 
+
+
+### Recharts
+
+This is a react library for making charts.
+
+[recharts website](https://recharts.org/en-US)
+
 ### 
 
 ### Links
