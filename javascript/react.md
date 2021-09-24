@@ -91,6 +91,10 @@ Buttons have button groups which applow you to format and style all the buttons 
 
 There is a startIcon and endIcon prop, for icons in the button
 
+#### makeStyles
+
+Fucntion from the core library for custom css styling of components
+
 
 
 ### Recharts
