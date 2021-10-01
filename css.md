@@ -4,7 +4,9 @@ description: CSS is the way to style HTML documents.
 
 # CSS
 
-### Notes
+## Notes
+
+### Introduction and basic tags
 
 &lt;!DOCTYPE html&gt; - this is a tag that tells the browser its html
 
@@ -50,7 +52,7 @@ you can use the style attribute in paragraphs for example.
 
 &lt;!- - This is how you comment things in HTML you can use cmd + / shortcut  - -&gt;
 
-#### HTML webform
+### HTML webform
 
 Webform are used to capture user information. Link username and passwords. sighn up form. feedback form. Form to search for properties. Anytime we need data from the user. forms are made up of differenet input fields. 
 
@@ -59,6 +61,13 @@ Webform are used to capture user information. Link username and passwords. sighn
 &lt;input&gt; is a single tag. The attribute type is the type of data we expect from the user type = "text" is commonly used. id attributes have to be unique.
 
 &lt;label&gt; &lt;/label&gt; this is used in conjuction with &lt;input&gt;. There is a for attribute, which you put the id of the input tag you want to link it to. 
+
+Radio button is another type of input
+
+dropdown boxs are also a thing
+
+&lt;textarea&gt; &lt;/textarea&gt; this is just a querk that this isnt a form, maybe it should be.   
+There are name, id, cols, rows and other attributes. You can also make a label for textareas.
 
 
 
