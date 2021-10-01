@@ -30,6 +30,22 @@ description: CSS is the way to style HTML documents.
 
 &lt;ol&gt; &lt;/ol&gt; orderied list. wrapper for &lt;li&gt; &lt;/li&gt;
 
+&lt;div&gt; &lt;/div&gt; division tag. Used to group documents into sections. Makes it eaasier to refer to them later. 
+
+some elements do not have an opening and closing tag with content between them
+
+&lt;br&gt; break tag
+
+&lt;hr&gt; horizontal rule
+
+there used to be &lt;hr /&gt; making this a 'self closing' tag. But this is no longer necessary in html5.
+
+&lt;img&gt; - some tags .also need \*\*attributes\*\*
+
+ 
+
+
+
 
 
 **Dont forget** all HTML elemets can be thought of as boxs. This is known and the [box model](https://www.w3schools.com/css/css_boxmodel.asp). 
