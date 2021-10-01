@@ -50,6 +50,18 @@ you can use the style attribute in paragraphs for example.
 
 &lt;!- - This is how you comment things in HTML you can use cmd + / shortcut  - -&gt;
 
+#### HTML webform
+
+Webform are used to capture user information. Link username and passwords. sighn up form. feedback form. Form to search for properties. Anytime we need data from the user. forms are made up of differenet input fields. 
+
+&lt;form&gt; &lt;/form&gt; action attributes are not for now. 
+
+&lt;input&gt; is a single tag. The attribute type is the type of data we expect from the user type = "text" is commonly used. id attributes have to be unique.
+
+&lt;label&gt; &lt;/label&gt; this is used in conjuction with &lt;input&gt;. There is a for attribute, which you put the id of the input tag you want to link it to. 
+
+
+
  
 
 
