@@ -33,7 +33,7 @@
     * [August](looking-back/2021/august.md)
 * [HTML](html.md)
 * [Machine Learning](machine-learning.md)
-* [CSS](css.md)
+* [HTML/CSS](css.md)
 * [Other](other.md)
 * [Pics](pics.md)
 * [NLP](nlp.md)

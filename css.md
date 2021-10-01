@@ -2,7 +2,7 @@
 description: CSS is the way to style HTML documents.
 ---
 
-# CSS
+# HTML/CSS
 
 ## Notes
 
@@ -68,6 +68,22 @@ dropdown boxs are also a thing
 
 &lt;textarea&gt; &lt;/textarea&gt; this is just a querk that this isnt a form, maybe it should be.   
 There are name, id, cols, rows, placeholder and other attributes. You can also make a label for textareas.
+
+You can add required attribute to input tags. You just need to add required it defaults the attribute to required =true
+
+
+
+## CSS
+
+HTML is for structuring content on a webpage, css is for styling it, making it look more presentable. CSS selectors are the things we actually want to target on a webpage. after the selectors, inside the curly braces there are the decloation, these are properly value pairs, such as color : red;
+
+
+
+You can add css directly to an html page as style attributes in tags. You can also do it as a &lt;style&gt; &lt;/style&gt; tag in the head of the document. The better way to do it is using external style sheets. The style tags need to be in the of every page you want the styling in. That is why you might use an external style sheet instead. 
+
+
+
+
 
 
 
