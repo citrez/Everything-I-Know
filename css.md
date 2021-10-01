@@ -22,6 +22,14 @@ description: CSS is the way to style HTML documents.
 
 &lt;small&gt; &lt;/small&gt; make this word a bit smaller
 
+&lt;h1&gt;&lt;h1&gt; - headings, they go from h1 to h6
+
+&lt;ul&gt; &lt;/ul&gt; unordered list. This is a wrapper for &lt;li&gt;&lt;/li&gt; tags
+
+&lt;li&gt;&lt;/li&gt; list items
+
+&lt;ol&gt; &lt;/ol&gt; orderied list. wrapper for &lt;li&gt; &lt;/li&gt;
+
 
 
 **Dont forget** all HTML elemets can be thought of as boxs. This is known and the [box model](https://www.w3schools.com/css/css_boxmodel.asp). 
