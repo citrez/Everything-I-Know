@@ -67,7 +67,7 @@ Radio button is another type of input
 dropdown boxs are also a thing
 
 &lt;textarea&gt; &lt;/textarea&gt; this is just a querk that this isnt a form, maybe it should be.   
-There are name, id, cols, rows and other attributes. You can also make a label for textareas.
+There are name, id, cols, rows, placeholder and other attributes. You can also make a label for textareas.
 
 
 
