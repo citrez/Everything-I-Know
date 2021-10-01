@@ -40,7 +40,7 @@ some elements do not have an opening and closing tag with content between them
 
 there used to be &lt;hr /&gt; making this a 'self closing' tag. But this is no longer necessary in html5.
 
-&lt;img&gt; - some tags .also need \*\*attributes\*\*
+&lt;img&gt; - some tags .also need \*\*attributes\*\*. In img tags the attribute src is needed to tell the image tag where to look. The path is relative to where the document in \(the index.html\) i.e if it is in a folder called img then scr = 'img/image.png'
 
  
 
