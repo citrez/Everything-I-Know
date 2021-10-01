@@ -40,7 +40,15 @@ some elements do not have an opening and closing tag with content between them
 
 there used to be &lt;hr /&gt; making this a 'self closing' tag. But this is no longer necessary in html5.
 
-&lt;img&gt; - some tags .also need \*\*attributes\*\*. In img tags the attribute src is needed to tell the image tag where to look. The path is relative to where the document in \(the index.html\) i.e if it is in a folder called img then scr = 'img/image.png'
+&lt;img&gt; - some tags .also need \*\*attributes\*\*. In img tags the attribute src is needed to tell the image tag where to look. The path is relative to where the document in \(the index.html\) i.e if it is in a folder called img then scr = 'img/image.png'. alt attribute is a description of it for accesabilty.
+
+&lt;a&gt; &lt;/a&gt; anchor tag. These have href attributes. anchor tags redirect you to other pages. The href tells you where to go. You can link to other html pages in your directory.
+
+&lt;blockquote&gt; &lt;/blockquote&gt; these link quotes from other sources. It has a cite attribute which tells you where the quote comes from. 
+
+you can use the style attribute in paragraphs for example. 
+
+&lt;!- - This is how you comment things in HTML you can use cmd + / shortcut  - -&gt;
 
  
 
