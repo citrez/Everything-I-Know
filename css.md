@@ -8,6 +8,8 @@ description: CSS is the way to style HTML documents.
 
 ### Introduction and basic tags
 
+[https://www.w3schools.com/tags/default.asp](https://www.w3schools.com/tags/default.asp)
+
 &lt;!DOCTYPE html&gt; - this is a tag that tells the browser its html
 
 &lt;html&gt; &lt;/html&gt; this is the root tag of the document
@@ -176,13 +178,19 @@ This can make our code more descriptive. Helps the browser know what he page is 
 
 static is the default, just where it is meant to be
 
-relative is relative to where it is meant to be use when position: relative use left: 20px or bottom: 20px  to move it around
+**relative** is relative to where it is meant to be use when position: relative use left: 20px or bottom: 20px  to move it around
 
-fixed is positioning elemts relative to the view port. That meants that it will stay there even when we scroll. 
+**fixed** is positioning elemts relative to the view port. That meants that it will stay there even when we scroll. 
 
-Absoloute positioning possitions the element relative to the parent element that has not been given a position of static
+**Absoloute** positioning possitions the element relative to the parent element that has not been given a position of static
 
-sticky is a mixture of static and fixed. Its static to begin with and then becomes fixed when the scroll posiition reaches a certain point. 
+**sticky** is a mixture of static and fixed. Its static to begin with and then becomes fixed when the scroll posiition reaches a certain point. 
+
+
+
+Where you use position relative, the space where the element was stays there, 
+
+Where you position absoloutely, it does not retain the space, you take it out of doucment flow and it is eaten up by the space beneath it
 
 
 
