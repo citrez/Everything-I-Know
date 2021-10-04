@@ -134,6 +134,56 @@ Margin collpse exists.
 
 Default browser styles. They are just default styles applied by the browser, like &lt;a&gt; &lt;/a&gt; tags are purple and underlined. A user agent style sheet. You can see these defaults in chrome developer tools. 
 
+### CSS selectors are important to know about
+
+{% embed url="https://www.w3schools.com/cssref/css\_selectors.asp" %}
+
+
+
+
+
+### Cascading
+
+html elements can inherit css properties that are applied to their parents. 
+
+but not all properties are inheritted things like margin, background are not enherted by childern and grandpadred etc. Things like fonts, text styles, colors etc that are inherited. 
+
+
+
+Imagine as a child of a parent we want to inheerit something that isnt automatically enherited \(color and fonts are\). we can just use  
+border: inherit  
+margin: inherit  
+this will look at the parents and inherit from them.  
+You can override inheritnce by just picking a value. More specific seletors override less specific ones. 
+
+CSS works from top to bottom, so when there is a conflict, it is the one that is further down that takes precidence. div p {} is a more specific selector than p {}
+
+### HTML semantic tags
+
+This can make our code more descriptive. Helps the browser know what he page is all about.
+
+&lt;main&gt; &lt;/main&gt; for the mian content of the page, unique to that page. It wont inlcude navigation, since that is on all webpages.
+
+&lt;section&gt; &lt;/section&gt; unique section of a page. blog list, contact info
+
+&lt;article&gt; &lt;/article&gt; 
+
+&lt;header&gt; &lt;/header&gt; not to be confused with head. Title, logo navigation, things on everything
+
+
+
+### Position
+
+static is the default, just where it is meant to be
+
+relative is relative to where it is meant to be use when position: relative use left: 20px or bottom: 20px  to move it around
+
+fixed is positioning elemts relative to the view port. That meants that it will stay there even when we scroll. 
+
+Absoloute positioning possitions the element relative to the parent element that has not been given a position of static
+
+sticky is a mixture of static and fixed. Its static to begin with and then becomes fixed when the scroll posiition reaches a certain point. 
+
 
 
 **Dont forget** all HTML elemets can be thought of as boxs. This is known and the [box model](https://www.w3schools.com/css/css_boxmodel.asp). 
