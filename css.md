@@ -110,15 +110,21 @@ border : 4px solid crimson
 you can also control the left right bottom top directly  
 border-bottom : 4px dotted crimson
 
-
-
 &lt;li&gt; &lt;/li&gt;
 
 list-style-type - this is the lift item dot. By default it is disc, but can be changed to square or none.  
-text-shadow : 2px 2px lightgray this is the horizontal, vertical and color of the shadow.   
+text-shadow : 2px 2px lightgray this is the horizontal, vertical and color of the shadow. 
 
+### Inline element vrs block elements
 
+Inline elements line up againsts each other is the browser and dont take up any more space than thye acually need. examples include &lt;span&gt; &lt;img&gt; &lt;strong&gt; &lt;em&gt; &lt;a&gt; and more...  
+They will sit next to each other on the page until they run out of room.
 
+Block level elements take up the whole width of the page and do not sit side by side they start on a new line. Examples include &lt;p&gt; div,h1, h2, h3, ul, li and more..
+
+You typically see inline elements nested inside of block level elements, but you should not see block level elements nested inside of inline elements.
+
+Inline / block elements are controlled by the display property, and different tags have different defaults, but this can be controlled and overridden.
 
 
 
