@@ -126,21 +126,13 @@ You typically see inline elements nested inside of block level elements, but you
 
 Inline / block elements are controlled by the display property, and different tags have different defaults, but this can be controlled and overridden.
 
+Margin, border, padding. For div elements Margin gets applied all around, for inline, margin only gets applied at the sides.
 
+Inline-block is a mesh of the two. The sit next to each other in the page, and dont take up the whole width. But the margin works like block level margin.  
 
-Margin, border, padding. For div elements Margin gets applied all around, for inline, margin only gets applied at the sides. 
+Margin collpse exists. 
 
-
-
-
-
-
-
-
-
- 
-
-
+Default browser styles. They are just default styles applied by the browser, like &lt;a&gt; &lt;/a&gt; tags are purple and underlined. 
 
 
 
