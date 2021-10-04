@@ -128,6 +128,10 @@ Inline / block elements are controlled by the display property, and different ta
 
 
 
+Margin, border, padding. For div elements Margin gets applied all around, for inline, margin only gets applied at the sides. 
+
+
+
 
 
 
