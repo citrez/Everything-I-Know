@@ -83,6 +83,10 @@ You can add css directly to an html page as style attributes in tags. You can al
 
 
 
+&lt;link&gt; is used to link style sheets to HTML pages. rel attribute means relation. rel = 'stylesheet' is standard. href attribute is the path relative to the document. Link is put in the &lt;head&gt;,&lt;/head&gt; tags
+
+
+
 
 
 
