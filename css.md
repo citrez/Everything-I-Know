@@ -132,7 +132,7 @@ Inline-block is a mesh of the two. The sit next to each other in the page, and d
 
 Margin collpse exists. 
 
-Default browser styles. They are just default styles applied by the browser, like &lt;a&gt; &lt;/a&gt; tags are purple and underlined. 
+Default browser styles. They are just default styles applied by the browser, like &lt;a&gt; &lt;/a&gt; tags are purple and underlined. A user agent style sheet. You can see these defaults in chrome developer tools. 
 
 
 
