@@ -85,6 +85,43 @@ You can add css directly to an html page as style attributes in tags. You can al
 
 &lt;link&gt; is used to link style sheets to HTML pages. rel attribute means relation. rel = 'stylesheet' is standard. href attribute is the path relative to the document. Link is put in the &lt;head&gt;,&lt;/head&gt; tags
 
+### Common CSS declorations
+
+&lt;p&gt; &lt;/p&gt;
+
+color - control the text color  
+background-color  
+font-size - given in px, rem etc  
+text-decoration - for underlining, strikethrough or none to get rid of stuff  
+font-family   
+text align - left, right, center  
+line-height - width between lines  
+letter-spacing - space between letters  
+column-count - how many columns you want  
+column-gap - the size of gap between columns
+
+
+
+border-width  
+border-style - solid, dashed etc  
+border-color  
+or shorthand...  
+border : 4px solid crimson  
+you can also control the left right bottom top directly  
+border-bottom : 4px dotted crimson
+
+
+
+&lt;li&gt; &lt;/li&gt;
+
+list-style-type - this is the lift item dot. By default it is disc, but can be changed to square or none.  
+text-shadow : 2px 2px lightgray this is the horizontal, vertical and color of the shadow.   
+
+
+
+
+
+
 
 
 
