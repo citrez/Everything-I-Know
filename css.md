@@ -212,9 +212,20 @@ border: 2px solid red;
 
 
 
-Psudeo 
+Psudeo elemts are picking things like the first line in a paragraph.   
+I styles specific parts of an element.
 
+::first-line .notice, 2 colons. 
 
+::after
+
+### Responsive Desiegn
+
+How your desiegn looks on different screens of different dimensions. 
+
+media queries style things differently at different widths.
+
+viewport meta tag tells the browser what width the view port should be. 
 
 
 

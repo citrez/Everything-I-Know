@@ -14,7 +14,9 @@ I use newsify to keep on top of the bloggers I like.
 * [DrSimon](https://drsimonj.svbtle.com/) - ggplot
 * [StoryBench](https://www.storybench.org/category/how-to/) - data vis in R
 * [Allison Hill](https://alison.rbind.io/) - great blogger and co-creator of blogdown
-* 
+
+[what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+
 
 
 
