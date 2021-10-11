@@ -26,6 +26,7 @@
   * [React](javascript/react/README.md)
     * [Material UI](javascript/react/material-ui.md)
   * [Node.js](javascript/node.js.md)
+  * [D3](javascript/d3.md)
 * [Gitbook](gitbook.md)
 * [Git](git.md)
 * [Looking Back](looking-back/README.md)
@@ -41,4 +42,3 @@
 * [Mac](mac.md)
 * [Music](music.md)
 * [Ownership](ownership.md)
-
