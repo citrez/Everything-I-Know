@@ -19,6 +19,7 @@
 * [Blogs I Like](blogs-i-like.md)
 * [Hugo](hugo.md)
 * [Podcasts](podcasts.md)
+* [Databases](databases.md)
 * [Data Science](data-science.md)
 * [Data Visualisation](data-visualisation/README.md)
   * [GGplot](data-visualisation/ggplot.md)
