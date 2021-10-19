@@ -7,6 +7,7 @@
 * [Programming Languages](programming-languages/README.md)
   * [Python](programming-languages/python/README.md)
     * [Python Libraries](programming-languages/python/python-libraries.md)
+    * [Flask](programming-languages/python/flask.md)
   * [R](programming-languages/r/README.md)
     * [R Packages](programming-languages/r/r-packages.md)
 * [Life](life/README.md)
@@ -48,3 +49,4 @@
 * [Ownership](ownership.md)
 * [Text Editors](text-editors/README.md)
   * [Visual Studio](text-editors/visual-studio.md)
+* [APIs](apis.md)
