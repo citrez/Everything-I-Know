@@ -8,9 +8,9 @@ description: JPEGs and PNGs speak louder than words
 
 ![](.gitbook/assets/pics01.png)
 
-
-
 ![graph graph](.gitbook/assets/graph_graph.png)
+
+![](.gitbook/assets/text-distance-infographics)
 
 
 

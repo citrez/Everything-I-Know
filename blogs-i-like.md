@@ -2,10 +2,11 @@
 description: These are all huge inspiration in creating my own blog
 ---
 
-# Blogs I Like
+# Blogs/ Articles I Like
 
-I use newsify to keep on top of the bloggers I like. 
+NOTE: You can use newsify to keep on top of the bloggers I like. 
 
+## Blogs
 * [Julia Silge](https://juliasilge.com/) - R code, tidytext, tidymodels
 * [Paul Graham](http://www.paulgraham.com/articles.html) - Founder of Y combinator
 * [writer of the wiki i like](https://nikitavoloboev.xyz/) - Nikita
@@ -14,8 +15,10 @@ I use newsify to keep on top of the bloggers I like.
 * [DrSimon](https://drsimonj.svbtle.com/) - ggplot
 * [StoryBench](https://www.storybench.org/category/how-to/) - data vis in R
 * [Allison Hill](https://alison.rbind.io/) - great blogger and co-creator of blogdown
+* [kdnuggets](https://www.kdnuggets.com/datasets/index.html)
 
-[what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+## Articles
+* [what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
 
 
