@@ -9,7 +9,16 @@ description: Things i've learned about trading
 * Forex - Buying USD with GBP. very volatile. Trillions traded a day, everyone needs other currencies. 
 
 ## IG
-
+### Chart Types
+* Line chart
+Most basic, gives the closing price of an asset on that day
+* HLOC (Bar Chart)
+High, Low, Open, Close as the acronym suggests.
+* Candle Stick Chart
+Same as the HLOC but displayed in a different way
+A green (or white) body shows the price has increased while a red (or black) body shows it has dropped
+Long candle bodies and short wicks signify there's been strong buying or selling pressure in one direction
+Short bodies and long wicks indicate there was significant buying or selling pressure in one direction, but that pressure then reversed
 ### Orders
 An order is simply an instruction to buy or sell an asset. Once the order has been filled, it is called a 'filled order'.
 ### Limit orders
@@ -18,7 +27,7 @@ It is a may of getting out when you've made the profit you want
 ### Stop Order
 It helps to 'stop losses'
 Stop order is an instruction to trade when the market hits a level less favourable than the current price.
-It is a way of getting out if it goes down too much 
+It is a way of getting out if it goes down too much. It allows you to know your maximum potentiall loss before you bet. 
 
 * Good till cancelled (GTC)
 Order remains valid until you cancel it yourself or the order is filled. On some exchanges, the order may only be valid for a specified period, so it may be worth checking with your broker.
@@ -38,5 +47,12 @@ As much of the order as possible will be filled at the price you specify. Any re
 ### Leverage
 Just as a mechanical lever helps you move a heavy load with only a small amount of force, leverage enables you to gain a large exposure to a financial asset using only a small amount of your trading capital.
 
-### Spread betting and CFDs
+## Spread betting and CFDs
+### Financial Spread Betting
+Financial spread betting is simply betting on how the value of a financial asset will change in the future. In most cases, you're betting on whether it will rise or fall. If you think the price of the asset will go up, you 'buy' (also known as going long). If you think it will fall, you 'sell' (go short).
 
+You can buy as the 'Buy' Price and sell at the 'Sell' price. The gap between the two prices is called the *spread*.
+
+Neither the buy price nor the sell price represents the exact value of the financial asset you're betting on (also known as the underlying asset). Instead, the buy price is slightly higher than this value, and the sell price is slightly lower.
+
+The spread is essentially a fee that your spread betting provider charges to place your bet, and the narrower the spread, the better it is for you. Let's look at why.
