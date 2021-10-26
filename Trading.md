@@ -56,3 +56,8 @@ You can buy as the 'Buy' Price and sell at the 'Sell' price. The gap between the
 Neither the buy price nor the sell price represents the exact value of the financial asset you're betting on (also known as the underlying asset). Instead, the buy price is slightly higher than this value, and the sell price is slightly lower.
 
 The spread is essentially a fee that your spread betting provider charges to place your bet, and the narrower the spread, the better it is for you. Let's look at why.
+
+## IG Interface
+
+### EPIC
+This is an instrument identifier.
