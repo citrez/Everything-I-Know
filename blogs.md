@@ -1,7 +1,3 @@
----
-description: These are all huge inspiration in creating my own blog
----
-
 # Blogs & Articles I Like
 
 NOTE: Use newsify to keep on top of the bloggers I like. 
