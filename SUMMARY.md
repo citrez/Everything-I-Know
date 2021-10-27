@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Meta](meta.md)
 * [Resources of Resources](resources-of-resources.md)
 * [Book Reviews](book-reviews.md)
 * [Programming Languages](programming-languages/README.md)
@@ -19,7 +18,7 @@
 * [Wikis I like](wikis-i-like.md)
 * [Blogs-&-Articles](blogs.md)
 * [Hugo](hugo.md)
-* [Podcasts](podcasts.md)
+* [Podcasts & AudioBooks](podcasts-audiobooks.md)
 * [Databases](databases.md)
 * [Data Science](data-science.md)
 * [Data Visualisation](data-visualisation/README.md)
