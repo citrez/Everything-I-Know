@@ -17,7 +17,7 @@
   * [Motivation](life/motivation.md)
   * [Euntreprenuership](life/euntreprenuership.md)
 * [Wikis I like](wikis-i-like.md)
-* [Blogs I Like](blogs-i-like.md)
+* [Blogs test](blogs-i-like.md)
 * [Hugo](hugo.md)
 * [Podcasts](podcasts.md)
 * [Databases](databases.md)
