@@ -18,3 +18,6 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 
 
 ## RStudio
+
+ctr + 1 - Move focus to editor
+ctr + 2 - Move focus to console
