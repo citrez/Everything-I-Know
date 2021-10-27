@@ -47,6 +47,5 @@
 * [Mac](mac.md)
 * [Music](music.md)
 * [Ownership](ownership.md)
-* [Text Editors](text-editors/README.md)
-  * [Visual Studio](text-editors/visual-studio.md)
+* [Text Editors](text-editors.md)
 * [APIs](apis.md)
