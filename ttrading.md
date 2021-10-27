@@ -61,3 +61,7 @@ The spread is essentially a fee that your spread betting provider charges to pla
 
 ### EPIC
 This is an instrument identifier.
+
+
+## Automated Trading
+[R cyrpto bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
