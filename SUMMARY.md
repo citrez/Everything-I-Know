@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Resources of Resources](resources-of-resources.md)
+* [Resources](resources.md)
 * [Book Reviews](book-reviews.md)
 * [Programming Languages](programming-languages/README.md)
   * [Python](programming-languages/python/README.md)

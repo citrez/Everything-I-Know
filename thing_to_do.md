@@ -1,6 +1,6 @@
 ---
 description:
-An ORDERED list
+An **ORDERED** list
 ---
 # Things I want to do
 
@@ -13,3 +13,6 @@ Be as speicific as possible. Making subpoints where if needed. Focus on how and 
 1. Check Elis coverage initiation idea.
     1. Find data of historical initation.
     1. Find a websites to scrape new initiations from.
+1. Enter kaggle compentitions
+1. Read and finish coding books.
+    1. PYthon data sci handbook

@@ -2,7 +2,8 @@
 
 ## Clothes
 
-sport socks
+[sport socks]()
+Red. So as to be easily distigiushable. 
 
 formal socks
 

@@ -5,7 +5,7 @@ description: >-
   so i will place it here
 ---
 
-# Resources of Resources
+## Resources of Resources
 
 * [All things coding and juypter](https://github.com/jupyter/jupyter/wiki)
 * [Open source computer Science degrees](https://github.com/ForrestKnight/open-source-cs-python)
@@ -13,3 +13,6 @@ description: >-
 * [Data sources](https://www.kdnuggets.com/datasets/index.html)
 * [Book recomendation from tech eutrepreneur](https://patrickcollison.com/bookshelf)
 
+## CheatSheets
+
+[Markdown](https://www.markdownguide.org/basic-syntax)
