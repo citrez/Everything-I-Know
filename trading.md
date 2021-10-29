@@ -9,6 +9,10 @@ description: Things i've learned about trading
 * Forex - Buying USD with GBP. very volatile. Trillions traded a day, everyone needs other currencies. 
 
 ## IG
+[IG Dashboard](https://www.ig.com/uk/myig/dashboard)
+[IG Academy](https://www.ig.com//uk/learn-to-trade/ig-academy)
+[IG API](https://labs.ig.com/)
+[IG API companion][https://labs.ig.com/sample-apps/api-companion/index.html] (GUI for the API)
 ### Chart Types
 * Line chart
 Most basic, gives the closing price of an asset on that day
@@ -61,6 +65,7 @@ The spread is essentially a fee that your spread betting provider charges to pla
 
 ### EPIC
 This is an instrument identifier.
+"Our instruments are identified by proprietary EPICs, such as IX.D.FTSE.CFD.IP - this CFD contract shows that it is the FTSE100 cash price market."
 
 
 ## Automated Trading

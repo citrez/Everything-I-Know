@@ -8,7 +8,6 @@
     * [Python Libraries](programming-languages/python/python-libraries.md)
     * [Flask](programming-languages/python/flask.md)
   * [R](programming-languages/r/README.md)
-    * [R Packages](programming-languages/r/r-packages.md)
 * [Life](life/README.md)
   * [Quotes](life/quotes.md)
   * [Happiness](life/happiness.md)
