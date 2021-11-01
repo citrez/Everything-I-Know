@@ -1,7 +1,9 @@
 # Text Editors / IDEs
 
 ## VScode
-VScode has been an absoloute reveleation to me. Not only does it make you feel like a 'real programmer' but it just works how you'd want it to, and the efficiencies you gain are real. 
+VScode has been an absoloute reveleation to me. Not only does it make you feel like a 'real programmer' but it just works how you'd want it to. The efficiencies you gain are real. 
+
+
 
 ### Shortcuts
 (I use these on my mac)
@@ -14,7 +16,9 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 
 ## Links
 
-[Visual Studio videos](https://code.visualstudio.com/docs/introvideos/codeediting)
+* [Visual Studio videos](https://code.visualstudio.com/docs/introvideos/codeediting)
+* [Use venv in vscode](https://code.visualstudio.com/docs/python/environments)
+* [Kite for VScode](https://help.kite.com/article/69-using-the-vs-code-plugin)
 
 
 ## RStudio
