@@ -16,6 +16,7 @@ NOTE: Use newsify to keep on top of the bloggers I like.
 * [StoryBench](https://www.storybench.org/category/how-to/) - data vis in R
 * [Allison Hill](https://alison.rbind.io/) - great blogger and co-creator of blogdown
 * [kdnuggets](https://www.kdnuggets.com/datasets/index.html)
+* [Mike Bostock](https://bost.ocks.org/mike/) - Creator of [Observable](https://observablehq.com/)
 
 ## Articles
 * [what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
