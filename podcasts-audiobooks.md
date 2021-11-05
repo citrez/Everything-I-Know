@@ -2,6 +2,7 @@
 ## Podcasts
 
 * [tidy tuesday podcast](https://podbay.fm/p/tidy-tuesday)
+* Diary of a CEO
 
 ## Audiobooks
 
