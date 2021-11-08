@@ -69,4 +69,7 @@ This is an instrument identifier.
 
 
 ## Automated Trading
-[R cyrpto bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
+
+* [Fully Automated IG](https://www.reddit.com/r/UKInvesting/comments/7q67cw/faig_fully_automated_ig_trading_a_python_script/) - see the github repo too
+
+* [R cyrpto bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
