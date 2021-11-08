@@ -16,3 +16,15 @@
 
 ## Selenium
 * [Waiting](https://selenium-python.readthedocs.io/waits.html)
+
+use pyenvs for using different python versions both globally and locally in directories/projects.
+
+```pyenv versions``` shows you what you have.
+
+[virtualenv in jupyter ](https://janakiev.com/blog/jupyter-virtual-envs/)
+
+```
+pip install --user ipykernel
+
+python -m ipykernel install --user --name=myenv
+ ```
