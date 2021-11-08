@@ -14,8 +14,11 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 
 * `git gui` or  `gitk`- for getting up a graphical interface
 
+[Addings SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ### Links
 
+* [Git Pro](http://git-scm.com/book/en/v2)
 * [Git documentation](https://git-scm.com/doc)
 * [git internals PDF](https://github.com/pluralsight/git-internals-pdf) - look at git object types and git data model. Page 13 onwards
 * [Interactive Visualisation of how git works](https://git-school.github.io/visualizing-git/)

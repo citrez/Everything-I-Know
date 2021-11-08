@@ -2,6 +2,8 @@
 
 ## Learning Python
 
+[PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
+
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) - this site can be used for learning other languages too!
 
 [Modules in Python](https://docs.python.org/3/tutorial/modules.html)
