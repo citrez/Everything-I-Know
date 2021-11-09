@@ -1,6 +1,7 @@
 # APIs
 
 * [IG for trading ](https://labs.ig.com/sample-apps)also has data and the ability to buy and sell.
+* bezinga - seee if it costs.
 
 
 ## What is an API
