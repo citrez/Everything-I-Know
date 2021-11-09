@@ -6,6 +6,8 @@
 ## VScode
 * cmd + opt + s  - save all 
 cmd + p - search files
+cmd + j - toggle terminal
+cmd + b - toggle sidebar
 
 ## General / Mac
 ctr + up 
