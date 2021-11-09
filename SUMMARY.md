@@ -14,6 +14,7 @@
   * [Motivation](life/motivation.md)
   * [Euntreprenuership](life/euntreprenuership.md)
   * [Exercise](life/exercise.md)
+* [GIMP](gimp.md)
 * [APIs](apis.md)
 * [Wikis I like](wikis-i-like.md)
 * [Blogs & Articles](blogs.md)
@@ -48,5 +49,4 @@
 * [Ownership](ownership.md)
 * [Text Editors](text-editors.md)
 * [Other](other.md)
-* [Things I want to Do](thing_to_do.md)
- 
+* [Things I want to Do](thing\_to\_do.md)
