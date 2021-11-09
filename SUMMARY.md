@@ -14,6 +14,7 @@
   * [Motivation](life/motivation.md)
   * [Euntreprenuership](life/euntreprenuership.md)
   * [Exercise](life/exercise.md)
+* [cheatsheets](cheatsheets.md)
 * [GIMP](gimp.md)
 * [APIs](apis.md)
 * [Wikis I like](wikis-i-like.md)
