@@ -5,9 +5,16 @@
 
 ## VScode
 * cmd + opt + s  - save all 
-cmd + p - search files
-cmd + j - toggle terminal
-cmd + b - toggle sidebar
+* cmd + p - search files
+* cmd + j - toggle terminal
+* cmd + b - toggle sidebar
+
+* cmd + p - finding files/ folders in your working dir
+* cmd + f - Find in the file you have open
+* cmd + alt + f - Replace in the file you have open
+* cmd + shift + f - Find in **all** files in WD. 
+* alt + click - For multi-cursor functionality. 
+* alt + cmd + s - Save all files.
 
 ## General / Mac
 ctr + up 

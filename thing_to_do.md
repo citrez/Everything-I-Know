@@ -4,6 +4,7 @@ description: An **ORDERED** list
 # Things I want to do
 
 Be as speicific as possible. Making subpoints where if needed. Focus on how and what, not just high level goals. 
+
 1. Update Blog.  
     1. Create image gallery for about me
 1. Make basic IG trading bot.
@@ -15,4 +16,4 @@ Be as speicific as possible. Making subpoints where if needed. Focus on how and 
     1. Find a websites to scrape new initiations from.
 1. Enter kaggle compentitions
 1. Read and finish coding books.
-    1. PYthon data sci handbook
+    1. Python data sci handbook
