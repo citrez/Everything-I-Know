@@ -5,6 +5,9 @@
 * [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
 
 * [Advanced Python](https://www.pythontutorial.net/advanced-python/)
+    * [Closures](https://www.pythontutorial.net/advanced-python/python-closures/) - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function.
+
+    
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) - this site can be used for learning other languages too!
 
 * [Modules in Python](https://docs.python.org/3/tutorial/modules.html)
