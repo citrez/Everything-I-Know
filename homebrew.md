@@ -15,6 +15,8 @@ Link to config file for automated set up of new machine
 * rectangle
 * Fliqlo
 * scroll-reverser
+* jupyter
+* pyenv
 
 
 ## Links

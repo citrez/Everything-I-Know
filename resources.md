@@ -2,7 +2,7 @@
 description: >-
   Sometimes I find a resource which is of its self a collection of other
   reasources. It is therefor too broad and difficult to put in another catagory,
-  so i will place it here
+  so i will place it here.
 ---
 
 ## Resources of Resources
@@ -14,9 +14,5 @@ description: >-
 * [Book recomendation from tech eutrepreneur](https://patrickcollison.com/bookshelf)
 * [Geeks for Greeks](https://www.geeksforgeeks.org/)
 
-## CheatSheets
 
-[Markdown](https://www.markdownguide.org/basic-syntax)
-[RMarkdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-[Beautiful Soup](http://akul.me/blog/2016/beautifulsoup-cheatsheet/)
 
