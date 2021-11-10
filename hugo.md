@@ -11,7 +11,7 @@ description: >-
 
 ### Notes
 
-As is often the case often the best place to learn a resource is the offical documentation 
+As is often the case often the best place to learn a resource is the offical documentation. 
 
 ### Links
 
