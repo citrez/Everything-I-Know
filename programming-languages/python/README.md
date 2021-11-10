@@ -13,13 +13,15 @@ Everything in python is an object. An object has a state and behaviors. To creat
 
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) - this site can be used for learning other languages too!
 
-* [Modules in Python](https://docs.python.org/3/tutorial/modules.html)
+* [Creating modules in Python](https://docs.python.org/3/tutorial/modules.html)
 
 * [Decorators](https://www.youtube.com/watch?v=tfCz563ebsU\&ab\_channel=TechWithTim)
 
 * [zip](https://careerkarma.com/blog/python-zip/)
 
 * [unpacking](https://stackabuse.com/unpacking-in-python-beyond-parallel-assignment/)
+
+* [Excpetion Hierarchy](https://docs.python.org/2/library/exceptions.html#exception-hierarchy)
 
 
 
@@ -51,3 +53,6 @@ python -m ipykernel install --user --name=myenv
 
 ## hvplot
 Interactive plots
+
+## [Papermill](https://papermill.readthedocs.io/en/latest/)
+Papermill is a tool for parameterizing and executing Jupyter Notebooks.

@@ -17,6 +17,7 @@
 * [cheatsheets](cheatsheets.md)
 * [GIMP](gimp.md)
 * [APIs](apis.md)
+* [Command Line](command_line.md)
 * [Wikis I like](wikis-i-like.md)
 * [Blogs & Articles](blogs.md)
 * [Hugo](hugo.md)

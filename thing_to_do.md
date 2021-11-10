@@ -4,7 +4,9 @@ description: An **ORDERED** list
 # Things I want to do
 
 Be as speicific as possible. Making subpoints where if needed. Focus on how and what, not just high level goals. 
+This list is in descending order of importance.
 
+1. Make Eli trading strategy.
 1. Update Blog.  
     1. Create image gallery for about me
 1. Make basic IG trading bot.
@@ -17,3 +19,4 @@ Be as speicific as possible. Making subpoints where if needed. Focus on how and 
 1. Enter kaggle compentitions
 1. Read and finish coding books.
     1. Python data sci handbook
+1. Explore survival analysis.
