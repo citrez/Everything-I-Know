@@ -5,6 +5,7 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 
 [data science in VScode](https://code.visualstudio.com/docs/datascience/overview)
 
+[VScode user guide](https://code.visualstudio.com/docs/editor/codebasics) - this looks like a very good guide to the main features.
 
 
 ### Shortcuts

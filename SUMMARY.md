@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Resources](resources.md)
-* [Book Reviews](book-reviews.md)
+* [Books](book-reviews.md)
 * [Programming Languages](programming-languages/README.md)
   * [Python](programming-languages/python/README.md)
     * [Flask](programming-languages/python/flask.md)

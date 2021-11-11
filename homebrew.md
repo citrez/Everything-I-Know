@@ -17,6 +17,7 @@ Link to config file for automated set up of new machine
 * scroll-reverser
 * jupyter
 * pyenv
+* cacher
 
 
 ## Links

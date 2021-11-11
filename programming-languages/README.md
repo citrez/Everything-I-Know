@@ -1,6 +1,12 @@
 # Programming Languages
 
-### Notes
+## BASH/ZSH
+printenv - print enviroment variables
+cd
+ls 
+mv
+cp
+
 
 ### Links
 
