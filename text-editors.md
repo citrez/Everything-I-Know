@@ -23,3 +23,9 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 
 ctr + 1 - Move focus to editor
 ctr + 2 - Move focus to console
+
+## datagrip
+[datagrip wedsite](https://www.jetbrains.com/datagrip/) - click on 'take a tour' for a 45 min intro video.
+cmd + j - live templates (snippets of code)
+cmd + enter - run code
+alt + enter
