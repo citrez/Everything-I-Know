@@ -14,6 +14,7 @@ ls
 mv
 cp
 
+[customising the zsh propt](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)
 
 ### Links
 

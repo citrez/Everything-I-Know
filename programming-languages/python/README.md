@@ -56,3 +56,11 @@ Interactive plots
 
 ## [Papermill](https://papermill.readthedocs.io/en/latest/)
 Papermill is a tool for parameterizing and executing Jupyter Notebooks.
+
+## Notes
+When a python module is imported, everything in it is run. Thats why the 
+```if __name__ == __main__:
+       do_something()
+```
+paradigm works.   
+This is also why we can import things at the begining of modules. 
