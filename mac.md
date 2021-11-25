@@ -8,3 +8,6 @@
 
 * [divvy]()
 * [Rectangle](https://rectangleapp.com/) maybe use this to replace divvy as its free and open source. 
+
+## Create a keyboard short to launch an App
+[how to](https://www.computerhope.com/issues/ch002051.htm)

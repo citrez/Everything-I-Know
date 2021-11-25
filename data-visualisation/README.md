@@ -8,6 +8,7 @@ description: Resources and links for DataVis
 
 * [Cedric gallery](https://www.cedricscherer.com/top/dataviz/)
 * [Observable](https://observablehq.com/@d3/gallery) - amazing D3 interactive and static with code included. One nice example in the [hierarchical interactive bar graph](https://observablehq.com/@d3/hierarchical-bar-chart)
+* [Python graph gallery](https://www.python-graph-gallery.com/)
 
 ### D3
 
