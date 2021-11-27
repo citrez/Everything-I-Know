@@ -8,3 +8,4 @@
 
 * [divvy]()
 * [Rectangle](https://rectangleapp.com/) maybe use this to replace divvy as its free and open source. 
+* Tinkertool - extra command line settings in a GUI
