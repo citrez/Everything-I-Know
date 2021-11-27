@@ -12,7 +12,8 @@ description: >-
 * [Best open data sources](https://learn.g2.com/open-data-sources)
 * [Data sources](https://www.kdnuggets.com/datasets/index.html)
 * [Book recomendation from tech eutrepreneur](https://patrickcollison.com/bookshelf)
-* [Geeks for Greeks](https://www.geeksforgeeks.org/)
+* [Geeks for Greeks](https://www.geeksforgeeks.org/) - site full of code explainations.
+
 
 
 

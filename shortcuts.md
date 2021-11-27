@@ -25,3 +25,7 @@ ctr+ tab (+shirt) - switch between chrome tabs
 ctr + w - close current tab
 cmd + left/right - back/forward in chomr history
 fn + backspace - forward backspace
+cmd + shift + . - show hidden files
+
+## Chrome
+cmd + l - search URL address bar

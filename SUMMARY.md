@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Resources](resources.md)
-* [Book Reviews](book-reviews.md)
+* [Books](book-reviews.md)
 * [Programming Languages](programming-languages/README.md)
   * [Python](programming-languages/python/README.md)
     * [Flask](programming-languages/python/flask.md)
@@ -17,6 +17,7 @@
 * [cheatsheets](cheatsheets.md)
 * [GIMP](gimp.md)
 * [APIs](apis.md)
+* [Command Line](command_line.md)
 * [Wikis I like](wikis-i-like.md)
 * [Blogs & Articles](blogs.md)
 * [Hugo](hugo.md)

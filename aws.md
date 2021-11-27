@@ -4,3 +4,7 @@
 
 [AWS training ](https://www.youtube.com/watch?v=Z3SYDTMP3ME\&ab\_channel=AWSTrainingCenter)
 
+
+## AWS commands
+
+```aws-azure-login --profile build``` - logging in to nws services via command line
