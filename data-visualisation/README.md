@@ -32,6 +32,10 @@ description: Resources and links for DataVis
 * [xkcd theme](https://stackoverflow.com/questions/12675147/how-can-we-make-xkcd-style-graphs)
 * [blog about themes](https://rfortherestofus.com/2019/08/themes-to-improve-your-ggplot-figures/)
 
+### Python plotting
+
+*[Treemaps in python](https://www.analyticsvidhya.com/blog/2021/06/build-treemaps-in-python-using-squarify/)
+
 
 
 

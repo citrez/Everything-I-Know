@@ -16,6 +16,8 @@ cp
 
 [customising the zsh propt](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)
 
+[bash alias ideas](https://opensource.com/article/19/7/bash-aliases)
+
 ### Links
 
 [learnXinYminutes](https://learnxinyminutes.com/) - generally great resource for learning all types of languages quickly

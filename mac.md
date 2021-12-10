@@ -1,5 +1,7 @@
 # Mac
 
+[keyboardshortcuts](https://support.apple.com/en-gb/HT201236)
+
 ## Apps
 
 * [fliqlo screen saver](https://fliqlo.com/)

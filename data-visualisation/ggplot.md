@@ -4,6 +4,8 @@
 
 * [ggrepel](https://ggrepel.slowkow.com/articles/examples.html)
 
+### Geo spacial analysis
+
 ### Links
 
 * [BBplot making a customised ggplot package](https://github.com/bbc/bbplot)

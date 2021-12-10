@@ -7,6 +7,12 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 
 [VScode user guide](https://code.visualstudio.com/docs/editor/codebasics) - this looks like a very good guide to the main features.
 
+[python in vscode](https://code.visualstudio.com/docs/python/editing) has incredible tricks and tips. 
+
+* shift + enter
+run one line in the termianl
+
+### VScode extensions
 
 ### Shortcuts
 (I use these on my mac)
