@@ -57,6 +57,25 @@ Interactive plots
 ## [Papermill](https://papermill.readthedocs.io/en/latest/)
 Papermill is a tool for parameterizing and executing Jupyter Notebooks.
 
+### pytest
+pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
+
+```pytest test_example.py``` will run all tests in that file. testing functions (or methods) need to start with an underscore test, i.e test_this_is_test().
+
+test a directory using
+tests/model/
+
+pytest test a file using 
+pytest tests/model/test_expenses.py
+
+test a particular function using
+pytest -k "test_apply_adjustment"
+
+more generally,
+check out the pytest [conventions for test discovery](https://docs.pytest.org/en/6.2.x/goodpractices.html#test-discovery)
+
+[Fixtures are how we prepare for a test](https://docs.pytest.org/en/6.2.x/fixture.html#fixtures)
+
 ## Notes
 When a python module is imported, everything in it is run. Thats why the 
 ```if __name__ == __main__:

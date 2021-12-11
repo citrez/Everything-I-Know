@@ -13,7 +13,8 @@ description: >-
 * [Data sources](https://www.kdnuggets.com/datasets/index.html)
 * [Book recomendation from tech eutrepreneur](https://patrickcollison.com/bookshelf)
 * [Geeks for Greeks](https://www.geeksforgeeks.org/) - site full of code explainations.
-
+* [practical data science](https://www.practicaldatascience.org/html/topic_list.html)
+This is course by Duke university, with a really clear website. 
 
 
 
