@@ -9,7 +9,6 @@ description: You can never know enough about git.
 Head, Tags, Branches and remotes all just point to a commit, which are directories of blobs (the data stored in git). Commits are just snapshots of your directory at a given point in time. 
 
 
-
 ### Commands
 
 * `git gui` or  `gitk`- for getting up a graphical interface

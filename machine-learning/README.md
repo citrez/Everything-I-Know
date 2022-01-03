@@ -12,3 +12,7 @@
 
 * [Poly and Spline regressions in R](http://www.sthda.com/english/articles/40-regression-analysis/162-nonlinear-regression-essentials-in-r-polynomial-and-spline-regression-models/)
 
+
+### Interpretable ML
+
+[Shapley Values](https://towardsdatascience.com/making-sense-of-shapley-values-dc67a8e4c5e8)
