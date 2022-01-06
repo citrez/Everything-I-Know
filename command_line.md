@@ -2,8 +2,14 @@
 
 [Command Line commands reference](https://ss64.com/). Superb, has a resource specifically for macOS. Simple layout with the available commands and the options. 
 
+[the linux command handbook](https://flaviocopesbooks.fra1.digitaloceanspaces.com/linux-commands-handbook.pdf)
+
 [bash  variables](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php)
 [dot files](https://www.google.com/search?q=dot+files+in+100+seconds&rlz=1C5GCEM_enGB978GB979&oq=dot+files+in+100+seconds&aqs=chrome..69i57.3647j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_h9iUYZe5N_uGxc8Pr4-FiAc21)
+
+## cron jobs for automating tasks
+[freecodecamp - cron jobs](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
+[generator to help create cron jobs](https://crontab-generator.org/)
 
 ## Customising the terminal
 [customising the terminal](https://medium.com/@charlesdobson/how-to-customize-your-macos-terminal-7cce5823006e)

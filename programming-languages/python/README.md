@@ -71,6 +71,16 @@ Papermill is a tool for parameterizing and executing Jupyter Notebooks.
 ## pydantic
 data validatoion 
 [](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
+## Poetry
+[poetry realpython](https://realpython.com/dependency-management-python-poetry/)
+```poetry new test_poetry_project``` this command makes a poetry directory structure, with the pyproject.toml file etc. 
+You add a dependancy to your project using ```poetry add pandas``` use can specify versions using carets and stuff. 
+use ```--dev``` to add dev dependancies.
+adding, adds it to the toml file but also installs it in you virtual env. 
+
+on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
+
+
 
 ### pytest
 pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
@@ -98,3 +108,7 @@ When a python module is imported, everything in it is run. Thats why the
 ```
 paradigm works.   
 This is also why we can import things at the begining of modules. 
+
+
+## Package Creation
+[overview of making a package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)

@@ -1,5 +1,9 @@
 # Shortcuts
 
+## My Custom
+opt+cmd+, - open settings
+otp+cmd+g open chorme
+
 ## finder
 * cmd + shift + . - show hidden files
 
