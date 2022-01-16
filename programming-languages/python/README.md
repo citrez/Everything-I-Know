@@ -15,6 +15,8 @@ Everything in python is an object. An object has a state and behaviors. To creat
 
 * [Creating modules in Python](https://docs.python.org/3/tutorial/modules.html)
 
+* [Book for creating packages in Python](https://py-pkgs.org/01-introduction)
+
 * [Decorators](https://www.youtube.com/watch?v=tfCz563ebsU\&ab\_channel=TechWithTim)
 
 * [zip](https://careerkarma.com/blog/python-zip/)
@@ -28,6 +30,15 @@ Everything in python is an object. An object has a state and behaviors. To creat
 ## BeautfulSoup
 [docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 [beautfulsoup walkthrough](https://www.digitalocean.com/community/tutorials/how-to-work-with-web-data-using-requests-and-beautiful-soup-with-python-3)
+
+## Pandas
+
+[Method chaining in pandas](https://towardsdatascience.com/the-unreasonable-effectiveness-of-method-chaining-in-pandas-15c2109e3c69) - much like the pipe in R
+
+## Flask
+
+[Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
 
 ## Selenium
 * [Waiting](https://selenium-python.readthedocs.io/waits.html)
@@ -57,6 +68,9 @@ Interactive plots
 ## [Papermill](https://papermill.readthedocs.io/en/latest/)
 Papermill is a tool for parameterizing and executing Jupyter Notebooks.
 
+## pydantic
+data validatoion 
+[](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
 ## Poetry
 [poetry realpython](https://realpython.com/dependency-management-python-poetry/) is a good explaination of poetry and also has a useful command reference section, for the common commands used in poetry. 
 
