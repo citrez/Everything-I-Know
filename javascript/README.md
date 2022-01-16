@@ -1,7 +1,6 @@
 ---
-description: see my JS-Learning repo for more details
+description: See my JS-Learning repo for more details
 ---
-
 
 # Javascript Tutorial
 
@@ -31,9 +30,7 @@ Object - "everything in javascript is an object". Arrays, dates, Libteralls
 
 Symbol
 
-
 * [Arrow functions in JavaScript](https://www.w3schools.com/js/js_arrow_function.asp)
-
 
 ## Node.js
 

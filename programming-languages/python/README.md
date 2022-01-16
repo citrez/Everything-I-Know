@@ -58,13 +58,21 @@ Interactive plots
 Papermill is a tool for parameterizing and executing Jupyter Notebooks.
 
 ## Poetry
-[poetry realpython](https://realpython.com/dependency-management-python-poetry/)
+[poetry realpython](https://realpython.com/dependency-management-python-poetry/) is a good explaination of poetry and also has a useful command reference section, for the common commands used in poetry. 
+
 ```poetry new test_poetry_project``` this command makes a poetry directory structure, with the pyproject.toml file etc. 
 You add a dependancy to your project using ```poetry add pandas``` use can specify versions using carets and stuff. 
 use ```--dev``` to add dev dependancies.
 adding, adds it to the toml file but also installs it in you virtual env. 
 
 on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
+
+[video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
+
+```poetry install``` resolves and installs the dependancies from your pyproject.toml in your enviroment (ideally virtual enviroment)
+It also installs the project itself
+```poetry add requests``` does a very similar thing to ```pip install requests```
+
 
 
 
@@ -89,8 +97,10 @@ check out the pytest [conventions for test discovery](https://docs.pytest.org/en
 
 ## Notes
 When a python module is imported, everything in it is run. Thats why the 
-```if __name__ == __main__:
-       do_something()
+```
+if __name__ == __main__:
+    do_something()
+
 ```
 paradigm works.   
 This is also why we can import things at the begining of modules. 
@@ -98,3 +108,5 @@ This is also why we can import things at the begining of modules.
 
 ## Package Creation
 [overview of making a package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)
+
+[Exercise to create a small example package](https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html#exercise-a-small-example-package)
