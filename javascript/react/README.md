@@ -116,3 +116,7 @@ This is a react library for making charts.
 * [Net Ninja Material UI Tutorial](https://www.youtube.com/watch?v=ha3a63YjLro&list=PL4cUxeGkcC9gjxLvV4VEkZ6H6H4yWuS58&index=2&ab_channel=TheNetNinja) - best youtube series
 * [emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) - emmet is built into vs code and invaluable for shortcuts 
 
+## Material UI
+
+The theme in material UI is a like a large javascript object that specifies the primary secondary color, font and all other things that relate to the theme. [The full theme object can be seen here](https://mui.com/customization/default-theme/).
+

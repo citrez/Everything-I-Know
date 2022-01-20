@@ -10,6 +10,7 @@
 
 - tree
 
+[trld](https://tldr.sh/) command line tool. Very useful.
 
 ## cron jobs for automating tasks
 [freecodecamp - cron jobs](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
