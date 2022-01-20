@@ -30,7 +30,7 @@ run one line in the termianl
 ctr + 1 - Move focus to editor
 ctr + 2 - Move focus to console
 
-## datagrip
+## Datagrip
 [datagrip wedsite](https://www.jetbrains.com/datagrip/) - click on 'take a tour' for a 45 min intro video.
 cmd + j - live templates (snippets of code)
 cmd + enter - run code

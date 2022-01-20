@@ -6,6 +6,10 @@
 
 [bash  variables](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php)
 [dot files](https://www.google.com/search?q=dot+files+in+100+seconds&rlz=1C5GCEM_enGB978GB979&oq=dot+files+in+100+seconds&aqs=chrome..69i57.3647j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_h9iUYZe5N_uGxc8Pr4-FiAc21)
+## Commands I wish to use more
+
+- tree
+
 
 ## cron jobs for automating tasks
 [freecodecamp - cron jobs](https://www.freecodecamp.org/news/cron-jobs-in-linux/)

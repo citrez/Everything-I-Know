@@ -1,7 +1,7 @@
 # Programming Languages
 
 ## Notes
-a dynamically typed programming. Types of variable (whether it is an int str list etc) are only checked at runtime (when that particular line of code is run) as opposed to at the begining of the program. Also a variable 'x' can change its type throughout its life.
+A dynamically typed programming. Types of variable (whether it is an int str list etc) are only checked at runtime (when that particular line of code is run) as opposed to at the begining of the program. Also a variable 'x' can change its type throughout its life.
 A statically typed language (like java) does the opposite.
 Strongly typed languages can not automatically convert variable types at runtime. Python is strongly typed, so 1+"2" will give an error because an int + a sstring gives an error. Javascript is weakly typed and that conversion can be done at runtime.
 
@@ -23,7 +23,7 @@ cp
 
 [bash alias ideas](https://opensource.com/article/19/7/bash-aliases)
 
-### Links
+## Links
 
 [learnXinYminutes](https://learnxinyminutes.com/) - generally great resource for learning all types of languages quickly
 

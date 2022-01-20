@@ -22,6 +22,7 @@ Link to config file for automated set up of new machine
 * youtube-dl
 https://www.reddit.com/r/learnprogramming/comments/44nhzp/how_to_use_youtubedl_and_ffmpeg_to_download/
 * [ffmpeg](https://formulae.brew.sh/formula/ffmpeg) 
+* tree prints your directory nicely in command line
 
 
 ## Links
