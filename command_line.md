@@ -1,5 +1,7 @@
 # Command Line
 
+[good guide for customising command line](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805) see his github page as well, .dotfiles for his full setup.
+
 [Command Line commands reference](https://ss64.com/). Superb, has a resource specifically for macOS. Simple layout with the available commands and the options. 
 
 [the linux command handbook](https://flaviocopesbooks.fra1.digitaloceanspaces.com/linux-commands-handbook.pdf)

@@ -4,10 +4,27 @@ description: You can never know enough about git.
 
 # Git
 
+## Undoing thing
+Okay, so git gives you this amazing history of commit messages to help you keep track of everything that has happened in your project. Now, how do we undo mistakes we may havve made. 
+One of the most common is adding more changes to a commit youve already made. ```git commit --amend``` overwrides your previous commit and adds the files in your staging area to it. Might look like this.
+```
+$ git commit -m 'Initial commit'
+$ git add forgotten_file
+$ git commit --amend
+```
+
+see more about undoing things [here](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+
+How to unstage things from your staging area (things added to git add).
+There are lots of different things you may want to do. Suppose you have added something to the staging area and you want to take it out of staging but not actually make any changes to the fil. This may be because you dont want to include it in a commit you wish to make. ```git reset HEAD <file>``` will do that for you.
+
+What if you made changes to a file and actually just want to get rid of all of the changes, and make it look like it did at the last commit (or any other). ```git checkout -- <file>``` will do that for you
+
+checkout a remote branch simply by writing ```git checkout remote_branch_name``` even though it doesnt show up in a git branch command, it is still there. A `git branch -a` will show you all branches.
+
 ### Notes
 
 Head, Tags, Branches and remotes all just point to a commit, which are directories of blobs (the data stored in git). Commits are just snapshots of your directory at a given point in time. 
-
 
 ### Commands
 
