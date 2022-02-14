@@ -1,6 +1,7 @@
 # APIs
 
 ## IG Trading API
+See [traing page](trading.md) for not API details.
 This is a great turorial explaining what an api is. How to interact with requests library in python, which will do the details of sending the HTTP requests to the server. It also speaks about building your own rest API at the end of the article. 
 [api in python](https://realpython.com/api-integration-in-python/)
 

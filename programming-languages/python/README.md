@@ -2,7 +2,7 @@
 
 ## Learning Python
 
-* [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
+* [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds). This is the definative style guide in python and should be used like the bible.
 
 * [Advanced Python](https://www.pythontutorial.net/advanced-python/)
     * [Closures](https://www.pythontutorial.net/advanced-python/python-closures/) - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function. **By definition, a closure is a nested function that references one or more variables from its enclosing scope.**
@@ -24,6 +24,9 @@ Everything in python is an object. An object has a state and behaviors. To creat
 * [unpacking](https://stackabuse.com/unpacking-in-python-beyond-parallel-assignment/)
 
 * [Excpetion Hierarchy](https://docs.python.org/2/library/exceptions.html#exception-hierarchy)
+
+## Abstract base classes ABC
+I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
 
 
 
@@ -87,6 +90,7 @@ on an existing project with a pyproject.toml file and poetry install creates a v
 It also installs the project itself
 ```poetry add requests``` does a very similar thing to ```pip install requests```
 
+Article on why everyone should use [poetry](https://hackersandslackers.com/python-poetry-package-manager/)
 
 
 

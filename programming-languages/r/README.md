@@ -8,7 +8,7 @@ description: >-
 ## Packages
 
 * Blogdown
-see my blogpost on how to make a blog for more details. It basically seems like a wrapper around the Hugo static site generator.
+See my blogpost on how to make a blog for more details. It basically seems like a wrapper around the Hugo static site generator.
 
 * gganimate
 
