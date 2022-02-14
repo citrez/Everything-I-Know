@@ -15,7 +15,7 @@ Data vis galleries are super inpiring and good first place to go.
 ## D3
 D3 is the ultimate interactive data vis tool, just quite finicy and seems very difficult to master.
 
-[d3/Javascript/React Turial](https://www.youtube.com/watch?v=2LhoCfjm8R4&ab_channel=freeCodeCamp.org)
+* [d3/Javascript/React Turial](https://www.youtube.com/watch?v=2LhoCfjm8R4&ab_channel=freeCodeCamp.org)
 
 ## Color Palletes
 Data vis is as much about design as data. Dont skimp on the details. Color palletes matter.
