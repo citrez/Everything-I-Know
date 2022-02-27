@@ -4,6 +4,8 @@ description: You can never know enough about git.
 
 # Git
 
+[visual cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
+
 ## Undoing thing
 Okay, so git gives you this amazing history of commit messages to help you keep track of everything that has happened in your project. Now, how do we undo mistakes we may havve made. 
 One of the most common is adding more changes to a commit youve already made. ```git commit --amend``` overwrides your previous commit and adds the files in your staging area to it. Might look like this.
@@ -39,3 +41,4 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 * [Git documentation](https://git-scm.com/doc)
 * [Interactive Visualisation of how git works](https://git-school.github.io/visualizing-git/)
 * [git for professionals ](https://www.youtube.com/watch?v=Uszj_k0DGsg\&t=18s\&ab_channel=freeCodeCamp.org)freecodecamp video
+* [practicaldatascience](https://www.practicaldatascience.org/html/git_and_github.html) give a short intro to git in thier DS course. Nice beginer intro.

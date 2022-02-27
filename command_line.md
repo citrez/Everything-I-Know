@@ -1,5 +1,21 @@
 # Command Line
 
+## Navigation
+
+Clean up the line: You can use Ctrl+U to clear up to the beginning.
+Clean up the line: Ctrl+E Ctrl+U to wipe the current line in the terminal
+Clean up the line: Ctrl+A Ctrl+K to wipe the current line in the terminal
+Cancel the current command/line: Ctrl+C.
+Recall the deleted command: Ctrl+Y (then Alt+Y)
+Go to beginning of the line: Ctrl+A
+Go to end of the line: Ctrl+E
+Remove the forward words for example, if you are middle of the command: Ctrl+K
+Remove characters on the left, until the beginning of the word: Ctrl+W
+To clear your entire command prompt: Ctrl + L
+Toggle between the start of line and current cursor position: Ctrl + XX
+
+[Bash One liners](https://www.bashoneliners.com/oneliners/popular/). This is a site for bash one liners.
+
 [good guide for customising command line](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805) see his github page as well, .dotfiles for his full setup.
 
 [Command Line commands reference](https://ss64.com/). Superb, has a resource specifically for macOS. Simple layout with the available commands and the options. 
@@ -22,3 +38,7 @@
 [customising the terminal](https://medium.com/@charlesdobson/how-to-customize-your-macos-terminal-7cce5823006e)
 [moving to zsh](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)
 [bash aliases you cant live without](https://opensource.com/article/19/7/bash-aliases)
+[the sybols for the prompt](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
+Nikita voloboev does it again, this is a great blog explaining how he set up his [shell](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805)
+
+[vim configurations repo](https://github.com/amix/vimrc)
