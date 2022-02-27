@@ -1,11 +1,11 @@
 ---
 description: >-
-  Sometimes I find a resource which is of its self a collection of other
+  Sometimes I find a resource which is itself a collection of
   reasources. It is therefor too broad and difficult to put in another catagory,
   so i will place it here.
 ---
 
-## Resources of Resources
+## Resources of resources
 
 * [All things coding and juypter](https://github.com/jupyter/jupyter/wiki)
 * [Open source computer Science degrees](https://github.com/ForrestKnight/open-source-cs-python)
@@ -14,6 +14,7 @@ description: >-
 * [Book recomendation from tech eutrepreneur](https://patrickcollison.com/bookshelf)
 * [Geeks for Greeks](https://www.geeksforgeeks.org/) - site full of code explainations.
 * [practical data science](https://www.practicaldatascience.org/html/topic_list.html)
+* [ryans tutorial](https://ryanstutorials.net/)
 This is course by Duke university, with a really clear website. 
 
 

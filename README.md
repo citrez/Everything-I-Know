@@ -1,7 +1,7 @@
 ---
 description: >-
   This is a place where I put knowledge that I have gained. The idea is to make
-  it as accesable as posible, so that I and others can use this as a resource.
+  it as accesable as posible, so that I and others can use this as a resource. Try to keep impersonal, such that it can be shared. 
 ---
 
 ## Introduction

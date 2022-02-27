@@ -1,9 +1,16 @@
 # Programming Languages
 
+This is a very highly accaimed textbook on computer science using [python](https://iran-lms.com/images/images/Books/PDF/Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle.pdf)
+
+## General Notes on Programming language
+a dynamically typed programming. Types of variable (whether it is an int str list etc) are only checked at runtime (when that particular line of code is run) as opposed to at the begining of the program. Also a variable 'x' can change its type throughout its life.
 ## Notes
 A **dynamically typed** language is where types of variable (whether it is an int str list etc) are only checked at runtime (when that particular line of code is run) as opposed to at the begining of the program. Also a variable 'x' can change its type throughout its life.
 A **statically typed** language (like java) does the opposite.
 **Strongly typed** languages can not automatically convert variable types at runtime. Python is strongly typed, so 1+"2" will give an error because an int + a sstring gives an error. Javascript is **weakly typed** and that conversion can be done at runtime.
+
+Some software design principles that i have picked up from arjan codes youtube channel.
+Cohesion - This is a fancy word for 
 
 ## BASH/ZSH
 

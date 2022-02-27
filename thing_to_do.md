@@ -20,3 +20,4 @@ This list is in descending order of importance.
 1. Read and finish coding books.
     1. Python data sci handbook
 1. Explore survival analysis.
+1. get something onto AWS

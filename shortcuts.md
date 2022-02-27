@@ -1,4 +1,5 @@
 # Shortcuts
+So many applications, so many shortcuts.
 
 ## My Custom
 opt+cmd+, - open settings
@@ -33,3 +34,5 @@ cmd + shift + . - show hidden files
 
 ## Chrome
 cmd + l - search URL address bar
+
+## Pycharm

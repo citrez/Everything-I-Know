@@ -1,5 +1,15 @@
 # Text Editors / IDEs
 
+## Vim
+Vim is a lightweight text editor to be used in the command line. Since point and click is not possible all the
+navigation is done with shortcuts.
+Vim has 2 modes.
+Command mode - to save and quit the program (and other more advance things)
+Insert mode. This is used to write and edit text.
+
+Upon creation of a file, vim is in command mode. Typing 'i' changed to insert mode.
+Pressing esc returns you to command mode.
+
 ## VScode
 Show command pallete. Jupyter: create interactive window, when working within notebooks
 
