@@ -50,3 +50,4 @@
 * [Text Editors](text-editors.md)
 * [Other](other.md)
 * [Things I want to Do](thing\_to\_do.md)
+* [Design](design.md)
