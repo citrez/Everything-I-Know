@@ -1,6 +1,8 @@
 ---
-description: CSS is the way to style HTML documents.
+description: HTML is what it says it is, hyper text **markup** language. It is used to mark up text. You can later go in to your HTML and style it with CSS. CSS is the way to style HTML documents.
 ---
+
+
 
 # HTML/CSS/ General UI
 
@@ -237,3 +239,4 @@ viewport meta tag tells the browser what width the view port should be.
 ### Links
 
 * [Incredible gamification of learning about CSS selectors](https://flukeout.github.io) 
+* [w3schools](https://www.w3schools.com/html/) - great reference
