@@ -19,6 +19,7 @@ NOTE: Use newsify to keep on top of the bloggers I like.
 * [Mike Bostock](https://bost.ocks.org/mike/) - Creator of [Observable](https://observablehq.com/)
 * [ben.substack](https://benn.substack.com/) - this is a CTO who writes well. He discusses lots of topics on the direction of data/analytics. [A method for measing analytical work](https://benn.substack.com/p/method-for-measuring-analytical-work) is a good example. 
 * [flavio copes](https://flaviocopes.com/) - a very insightful blog with great free code ebooks.
+* [practical business python](https://pbpython.com/)
 
 ## Articles
 * [what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)

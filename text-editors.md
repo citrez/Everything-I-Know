@@ -11,6 +11,9 @@ Upon creation of a file, vim is in command mode. Typing 'i' changed to insert mo
 Pressing esc returns you to command mode.
 
 ## VScode
+
+[Great reasons to use VS code for developing jupyter notebooks](https://pbpython.com/vscode-notebooks.html)
+
 Show command pallete. Jupyter: create interactive window, when working within notebooks
 
 VScode has been an absoloute reveleation to me. Not only does it make you feel like a 'real programmer' but it just works how you'd want it to. The efficiencies you gain are real. 
