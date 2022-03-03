@@ -11,6 +11,7 @@
 * [Command Line](command-line.md)
 * [Data Science](data-science.md)
 * [Databases](databases.md)
+* [Design](design.md)
 * [GIMP](gimp.md)
 * [Gitbook](gitbook.md)
 * [Homebrew](homebrew.md)

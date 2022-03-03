@@ -2,6 +2,8 @@
 
 ## Links
 
+[GGplot Cookbook](https://r-graphics.org/). Comprehensive guide to the ggplot language.
+
 ### Related Visualision Packages
 Ggplot seems to me to be the best visualisation tool out there. Plotnine is the python replica.
 

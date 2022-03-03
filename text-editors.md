@@ -11,6 +11,8 @@ Upon creation of a file, vim is in command mode. Typing 'i' changed to insert mo
 Pressing esc returns you to command mode.
 
 ## VScode
+Show command pallete. Jupyter: create interactive window, when working within notebooks
+
 VScode has been an absoloute reveleation to me. Not only does it make you feel like a 'real programmer' but it just works how you'd want it to. The efficiencies you gain are real. 
 
 [data science in VScode](https://code.visualstudio.com/docs/datascience/overview)
@@ -27,6 +29,10 @@ run one line in the termianl
 ### Shortcuts
 (I use these on my mac)
 
+
+## vim
+vim is a nice very minimal text editor that is convenient to use from the command line and makes you look like a real developer.
+Type vimtutor to get a document that gives you the main commands needed for vim. 
 
 ## Links
 
