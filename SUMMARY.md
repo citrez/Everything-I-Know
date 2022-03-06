@@ -46,7 +46,6 @@
   * [GGplot](data-visualisation/ggplot.md)
 * [Machine Learning](machine-learning/README.md)
   * [Interpretable ML](machine-learning/interpretable-ml.md)
-
 * [JavaScript](javascript/README.md)
   * [React](javascript/react/README.md)
 * [Looking Back](looking-back/README.md)
