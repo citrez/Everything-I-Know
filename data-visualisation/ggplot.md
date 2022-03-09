@@ -7,13 +7,13 @@
 ### Related Visualision Packages
 Ggplot seems to me to be the best visualisation tool out there. Plotnine is the python replica.
 
-## Extension Ggplot Packages
+## Extension ggplot Packages
 
 * [ggrepel](https://ggrepel.slowkow.com/articles/examples.html)
 
 You can find a list [here](https://exts.ggplot2.tidyverse.org/gallery/)
 
-## Geo spacial analysis
+## Geo-spatial analysis
 
 ## Links
 

@@ -12,4 +12,4 @@ It is very easy to become an information hoarder. This is not a good place to be
 * [How does HTTPS work](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
 * [building apps with serverless archetecture](https://aws.amazon.com/lambda/serverless-architectures-learn-more/)
 * this seems like too good of a resource to loose [https://www.fullstackpython.com/table-of-contents.html](https://www.fullstackpython.com/table-of-contents.html)
-*
+* [a site that lists all google speaker command](https://ok-google.io/)
