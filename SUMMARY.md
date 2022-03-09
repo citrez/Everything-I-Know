@@ -42,7 +42,7 @@
   * [GGplot](data-visualisation/ggplot.md)
 * [JavaScript](javascript/README.md)
   * [React](javascript/react/README.md)
-* [Looking Back](looking-back/README.md)
+* [Looking Back](looking-back.md)
   * [2021](looking-back/2021/README.md)
     * [August](looking-back/2021/august.md)
 * [Machine Learning](machine-learning.md)
