@@ -21,9 +21,10 @@ Keep content on one page if possible, and only breakout into subpages if the con
 
 I would like to converge towards a standard template for my EIK (everything I know) pages, with standardised headers.&#x20;
 
-Title \
-Subtitle
-Links\
+Title: The page or subpage title
+Description: A high level description what the page wants to achieve. 
+Write Ups: A write up of my thoughts on the topic. 
+Links: Links to resources on the topic. With a description and explaination of the link.
 
 
 Although I realise that this template might not always be relevant.

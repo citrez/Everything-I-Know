@@ -15,6 +15,9 @@ $ git add forgotten_file
 $ git commit --amend
 ```
 
+if you want to just change the last commit message you made try
+`git commit --amend -m"updated comit message"`
+
 see more about undoing things [here](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
 
 How to unstage things from your staging area (things added to git add).

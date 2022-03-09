@@ -14,7 +14,7 @@ It is very easy to become an information hoarder. This is not a good place to be
 * this seems like too good of a resource to loose [https://www.fullstackpython.com/table-of-contents.html](https://www.fullstackpython.com/table-of-contents.html)
 * [Nerd snipping](https://en.wikipedia.org/wiki/Nerd_sniping) as great term to describe 'going down a rabbit hole'
 
-
 add an economimcs section 
 [How money works](https://twitter.com/paraschopra/status/1346688696599252993)
 
+* [a site that lists all google speaker command](https://ok-google.io/)

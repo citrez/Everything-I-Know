@@ -2,8 +2,6 @@
 description: These are all huge inspiration in creating my own blog. Dont ever be just consuming. dont go down a rabbit hole consuming, make sure they is always some production going on as well.
 ---
 
-
-
 # Blogs & Articles
 
 NOTE: Use newsify to keep on top of the bloggers I like. 
