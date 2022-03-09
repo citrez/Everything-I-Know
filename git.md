@@ -4,7 +4,7 @@ description: You can never know enough about git.
 
 # Git
 
-[visual cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
+
 
 ## Undoing thing
 Okay, so git gives you this amazing history of commit messages to help you keep track of everything that has happened in your project. Now, how do we undo mistakes we may havve made. 
@@ -36,6 +36,7 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 
 ### Links
 
+* [visual cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) - this is a nice visual website
 * [git internals PDF](https://github.com/pluralsight/git-internals-pdf) - look at git object types and git data model. Page 13 onwards
 * [Git Pro](http://git-scm.com/book/en/v2)
 * [Git documentation](https://git-scm.com/doc)

@@ -21,8 +21,8 @@ Keep content on one page if possible, and only breakout into subpages if the con
 
 I would like to converge towards a standard template for my EIK (everything I know) pages, with standardised headers.&#x20;
 
-Title\
-Subtitle\
+Title \
+Subtitle
 Links\
 
 

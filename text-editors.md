@@ -14,15 +14,18 @@ Pressing esc returns you to command mode.
 
 [Great reasons to use VS code for developing jupyter notebooks](https://pbpython.com/vscode-notebooks.html)
 
+[use a snippet with a keyboard shortcut](https://stackoverflow.com/questions/39333639/visual-studio-code-snippet-as-keyboard-shortcut-key)
+
 Show command pallete. Jupyter: create interactive window, when working within notebooks
 
 VScode has been an absoloute reveleation to me. Not only does it make you feel like a 'real programmer' but it just works how you'd want it to. The efficiencies you gain are real. 
-
 [data science in VScode](https://code.visualstudio.com/docs/datascience/overview)
 
 [VScode user guide](https://code.visualstudio.com/docs/editor/codebasics) - this looks like a very good guide to the main features.
 
 [python in vscode](https://code.visualstudio.com/docs/python/editing) has incredible tricks and tips. 
+[Key binding for VScode](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)
+[Shortcuts in VScode](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 * shift + enter
 run one line in the termianl
