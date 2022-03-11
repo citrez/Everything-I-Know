@@ -17,4 +17,6 @@ I want this month to be when i start to take touch typing really seriously, im s
 
 Want to improve my AWS knowledge, this hasnt happened yet.
 
+## March 22
 
+I really do feel like i am improving as a developer/ data scientist, but its quite hard to point to a specific thing that I am getting better at. It is omre that I have a better appreciation for the landscape and my interests have expanded. I am also getting better tools for my workflow. i.e getting better at note taking with gitbooks/markdwon files. and getting better at using vscode (snippets, shortcuts etc). This note taking app is one way of measuring progress. If I take notes on things it is a definitive way of saying that i am learning stuff, however, i dont want writing notes to start to become a proxy for actual progress in things.

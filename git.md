@@ -4,6 +4,23 @@ description: You can never know enough about git.
 
 # Git
 
+## Understanding git
+
+Git stupidly tracks files and directories. When git stores a new project it stores an entire tree. ie. a whole bunch of blobs of contect and pointers pointing to that content that can be expanded out to form a complete directory.
+  
+### Git object types
+These are the actual data stored within git. They are all stored in the git object database within the `.git` directory.
+
+**The Blob**  
+The content of a file is stored in a blob. So in the .git directory, there with be a blob that corresponds to each file. Importantly, it is only the *content* of the file stores in the blob, the name or location of the file is not. So, if you have 2 identical files is two places in your repo, they will only be stored once. 
+
+**The Tree**  
+This is the directory structure. The tree is just a list of other tree (subdirectories) and blobs (files).
+
+**The Commit**  
+A commit is very simple, it just points to a tree and keeps track of the the author, committer, messsage and the parent commit that directly preceded it.
+
+
 
 
 ## Undoing thing
