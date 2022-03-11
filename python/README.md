@@ -28,16 +28,15 @@ Everything in python is an object. An object has a state/data (attributes) and b
 ## Abstract base classes ABC
 I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
 
-## Packages
+## Python Packages
+> NOTE: Can think about turning these bullets into subpages if the bullets become too large.
 
-* BeautfulSoup 
-[docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-[beautfulsoup walkthrough](https://www.digitalocean.com/community/tutorials/how-to-work-with-web-data-using-requests-and-beautiful-soup-with-python-3)
+* [**BeautfulSoup**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a package for parsing html doucments. Extracting from them the bits you want. 
+[Beautfulsoup walkthrough](https://www.digitalocean.com/community/tutorials/how-to-work-with-web-data-using-requests-and-beautiful-soup-with-python-3)
 
-* Pandas
-[Method chaining in pandas](https://towardsdatascience.com/the-unreasonable-effectiveness-of-method-chaining-in-pandas-15c2109e3c69) - much like the pipe in R
-
-show all rows and columns when printing a pandas dataframe in a jupyter notebook. [link](https://towardsdatascience.com/how-to-show-all-columns-rows-of-a-pandas-dataframe-c49d4507fcf)
+* **Pandas** implements the pandas dataframe, a staple in any data anaylitics in python.
+  * [Method chaining](https://towardsdatascience.com/the-unreasonable-effectiveness-of-method-chaining-in-pandas-15c2109e3c69) can be used in python much like the pipe in R.
+  * [Link](https://towardsdatascience.com/how-to-show-all-columns-rows-of-a-pandas-dataframe-c49d4507fcf). Show more rows and columns when displaying a dataframe in a notebook. 
 
 * Flask
 [Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
@@ -90,20 +89,30 @@ Usually in python you need to give type hints and then instantialise the object,
 Adding validator decorators is where pydantic really shines.
 [8 reasons to start using pydantic](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
 
-* Poetry
-[realpython](https://realpython.com/dependency-management-python-poetry/) gives a good explaination of poetry and also has a useful command reference section, for the common commands used in poetry. 
+## Poetry  
+Poetry is a dependancy management tool. In plain english, in any project there are a bunch of other packages that it relies on. i.e, we might need pandas 1.3.5 which relies on numpy 1.21.1, but scipy 1.6.1 also relies on numpy but needs numpy to be less than 1.0.0, sorting out this headache is the job of a package managment tool. It gives you the most recent version of the packages you need that satisfy your constraints.  
 
-```poetry new test_poetry_project``` this command makes a poetry directory structure, with the pyproject.toml file etc. 
-You add a dependancy to your project using ```poetry add pandas``` use can specify versions using carets and stuff. 
-use ```--dev``` to add dev dependancies.
-Adding, adds it to the toml file but also installs it in you virtual env.  
+[Realpython - dependency management with poetry](https://realpython.com/dependency-management-python-poetry/) gives a good explaination and  has a useful command reference section.
+
+### Poetry commands
+
+`poetry` - show a list of available commands.
+
+```poetry new test```  - Create a poetry directory structure, with the pyproject.toml file etc. 
+my-package
+
+`poetry init` - poetr-ify a directory
+
+```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. 
+
+`poetry install` - If you have a poetry.lock, it will just install the exact versions from there. If no poetry lock, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
+
+`poetry update` - Gives you the latest versions of all your dependacies, subject to all of thier constraints. This command, not only updates the dependacy versions, but it writes them to the lock file. You can update particular packages. `poetry update pandas numpy`
 
 on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
 
-[video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
 
-```poetry install``` resolves and installs the dependancies from your pyproject.toml in your enviroment (ideally virtual enviroment)
-It also installs the project itself
+
 ```poetry add requests``` does a very similar thing to ```pip install requests```
 
 Article on why everyone should use [poetry](https://hackersandslackers.com/python-poetry-package-manager/)
@@ -112,7 +121,25 @@ On an existing project with a pyproject.toml file and poetry install creates a v
 
 [poetry commands](https://python-poetry.org/docs/cli/#show) 
 
-* pytest
+### Dependancy specification 
+
+**Caret requirement**  
+This updates the package as long as it doesnt modify the left-most digit in the 1.3.2 (major.minor.patch) grouping. So a ^0.1.6 specification could update to 0.1.23 but not 0.2.1
+
+|REQUIREMENT|	VERSIONS ALLOWED|
+|----|---|
+|^1.2.3|	>=1.2.3 <2.0.0|
+|^1.2	|>=1.2.0 <2.0.0|
+|^1	|>=1.0.0 <2.0.0|
+|^0.2.3	|>=0.2.3 <0.3.0|
+|^0.0.3	|>=0.0.3 <0.0.4|
+|^0.0	|>=0.0.0 <0.1.0|
+|^0	|>=0.0.0 <1.0.0|
+
+Links  
+[youtube video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
+
+## pytest
 pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
 
 ```pytest test_example.py``` will run all tests in that file. Testing functions (or methods) need to start with an underscore test, i.e test_this_is_test().
