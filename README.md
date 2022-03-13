@@ -1,13 +1,10 @@
 ---
 description: >-
   This is a place where I put knowledge that I have gained. The idea is to make
-  it as accesable as posible, so that I and others can use this as a resource.
-  Try to keep impersonal, such that it can be s
+  it as accesable as possible, so that I and others can use this as a resource.
 ---
 
 # Introduction
-
-### Introduction
 
 This is my personal wiki where I share 'Everything I Know', you can think of this as an online OneNote or a rough 'note pad'. I have a blog as well, that I was previously using to document learnings, but it was proving too time consuming to maintain. I'm still finding my feet in distinguishing between content here and on my personal blog. Ultimately, I want aspects of this to natrually go onto my blogs (such as a cheat sheet recources making there way on to my blog resources page). For now, I see this as a [digital garden](https://www.reddit.com/r/DigitalGardens/) in the form of an online [GitBook](https://www.gitbook.com) hosted on GitHub. I will be updating this wiki quite often as I use it myself daily both to keep an account of things I know, things I want to know and [things to do](things\_to\_do.md). It is increasingly necessary to have an organised and efficient way of accessing knowledge that you have learned. Where I can go to a page and be reminded of the things I once knew and quickly gain access to the resources that will allow me know them once again. This was heavily inspired by [nikita voloboev's](https://wiki.nikitavoloboev.xyz/macos/macos-apps).
 

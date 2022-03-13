@@ -89,55 +89,7 @@ Usually in python you need to give type hints and then instantialise the object,
 Adding validator decorators is where pydantic really shines.
 [8 reasons to start using pydantic](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
 
-## Poetry  
-Poetry is a dependancy management tool. In plain english, in any project there are a bunch of other packages that it relies on. i.e, we might need pandas 1.3.5 which relies on numpy 1.21.1, but scipy 1.6.1 also relies on numpy but needs numpy to be less than 1.0.0, sorting out this headache is the job of a package managment tool. It gives you the most recent version of the packages you need that satisfy your constraints.  
 
-[Realpython - dependency management with poetry](https://realpython.com/dependency-management-python-poetry/) gives a good explaination and  has a useful command reference section.
-
-### Poetry commands
-
-`poetry` - show a list of available commands.
-
-```poetry new test```  - Create a poetry directory structure, with the pyproject.toml file etc. 
-my-package
-
-`poetry init` - poetr-ify a directory
-
-```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. 
-
-`poetry install` - If you have a poetry.lock, it will just install the exact versions from there. If no poetry lock, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
-
-`poetry update` - Gives you the latest versions of all your dependacies, subject to all of thier constraints. This command, not only updates the dependacy versions, but it writes them to the lock file. You can update particular packages. `poetry update pandas numpy`
-
-on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
-
-
-
-```poetry add requests``` does a very similar thing to ```pip install requests```
-
-Article on why everyone should use [poetry](https://hackersandslackers.com/python-poetry-package-manager/)
-
-On an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
-
-[poetry commands](https://python-poetry.org/docs/cli/#show) 
-
-### Dependancy specification 
-
-**Caret requirement**  
-This updates the package as long as it doesnt modify the left-most digit in the 1.3.2 (major.minor.patch) grouping. So a ^0.1.6 specification could update to 0.1.23 but not 0.2.1
-
-|REQUIREMENT|	VERSIONS ALLOWED|
-|----|---|
-|^1.2.3|	>=1.2.3 <2.0.0|
-|^1.2	|>=1.2.0 <2.0.0|
-|^1	|>=1.0.0 <2.0.0|
-|^0.2.3	|>=0.2.3 <0.3.0|
-|^0.0.3	|>=0.0.3 <0.0.4|
-|^0.0	|>=0.0.0 <0.1.0|
-|^0	|>=0.0.0 <1.0.0|
-
-Links  
-[youtube video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
 
 ## pytest
 pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
@@ -175,7 +127,7 @@ if __name__ == __main__:
 ```
 paradigm works. This is also why we can import things at the begining of modules. 
 
-## Creatiing Packages
+## Creating Packages
 
 distutils is the inbuilt package that helps you build packages but it has really been superceded by setuptoolsl. The distutils package may be destined for depreciation. 
 
