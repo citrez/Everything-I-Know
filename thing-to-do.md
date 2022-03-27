@@ -6,7 +6,7 @@ description: An **ORDERED** list
 Be as speicific as possible. Making subpoints where if needed. Focus on how and what, not just high level goals. 
 This list is in descending order of importance.
 
-1. Make Eli trading strategy.
+1. Make simple trading strategy using ig-markets-api-python-library repo
 1. Update Blog.  
     1. Create image gallery for about me
 1. Make basic IG trading bot.
@@ -16,8 +16,8 @@ This list is in descending order of importance.
 1. Check Elis coverage initiation idea.
     1. Find data of historical initation.
     1. Find a websites to scrape new initiations from.
-1. Enter kaggle compentitions
+1. Enter a kaggle compentition
 1. Read and finish coding books.
     1. Python data sci handbook
 1. Explore survival analysis.
-1. get something onto AWS
+1. Get a datebase onto AWS

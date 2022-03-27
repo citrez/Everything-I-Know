@@ -1,5 +1,5 @@
 ---
-description: >-
+description:
   Hugo is a static website builder that is capable of abstracting away the
   html/css/javascript using its built themes. But also highly customisable with
   layout/architypes/templates etc.
