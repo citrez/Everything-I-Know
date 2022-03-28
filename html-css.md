@@ -143,7 +143,7 @@ Default browser styles. They are just default styles applied by the browser, lik
 
 ### CSS selectors are important to know about
 
-{% embed url="https://www.w3schools.com/cssref/css_selectors.asp" %}
+url="https://www.w3schools.com/cssref/css_selectors.asp"
 
 
 
@@ -213,7 +213,7 @@ border: 2px solid red;\
 
 :valid to style when a form is valid. Think: going green when it is valid.
 
-{% embed url="https://www.w3schools.com/css/css_pseudo_elements.asp" %}
+url="https://www.w3schools.com/css/css_pseudo_elements.asp"
 
 
 
