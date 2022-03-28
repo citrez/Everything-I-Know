@@ -21,3 +21,6 @@ This list is in descending order of importance.
     1. Python data sci handbook
 1. Explore survival analysis.
 1. Get a datebase onto AWS
+
+
+Instead of trying to predict a particular stock, look for stocks that are _intrisically_ predictable. I.e train on 1 year, test on 1 month. Do this 3 time for each stock, see which has patterns.
