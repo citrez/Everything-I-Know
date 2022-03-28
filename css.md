@@ -133,7 +133,7 @@ Default browser styles. They are just default styles applied by the browser, lik
 
 ### CSS selectors are important to know about
 
-{% embed url="https://www.w3schools.com/cssref/css_selectors.asp" %}
+[CSS reference](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ### Cascading
 
