@@ -10,6 +10,10 @@ Insert mode. This is used to write and edit text.
 Upon creation of a file, vim is in command mode. Typing 'i' changed to insert mode.
 Pressing esc returns you to command mode.
 
+Go to line 
+42G
+42gg
+:42<CR>
 ## VScode
 I spend most of my time in vscode. I like its versatility, it does everything (includeing notebooks) well. I use it for everything from production python code to markdown editing. It is so feature rich, i learn something new about it almost every day.
 
