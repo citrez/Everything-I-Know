@@ -189,7 +189,7 @@ border: 2px solid red;\
 
 :valid to style when a form is valid. Think: going green when it is valid.
 
-{% embed url="https://www.w3schools.com/css/css_pseudo_elements.asp" %}
+url="https://www.w3schools.com/css/css_pseudo_elements.asp"
 
 Psudeo elemts are picking things like the first line in a paragraph.\
 I styles specific parts of an element.
