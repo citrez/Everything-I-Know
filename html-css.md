@@ -145,10 +145,6 @@ Default browser styles. They are just default styles applied by the browser, lik
 
 url="https://www.w3schools.com/cssref/css_selectors.asp"
 
-
-
-
-
 ### Cascading
 
 html elements can inherit css properties that are applied to their parents. 
