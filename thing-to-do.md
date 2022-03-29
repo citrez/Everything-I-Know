@@ -25,3 +25,5 @@ This list is in descending order of importance.
 
 Instead of trying to predict a particular stock, look for stocks that are _intrisically_ predictable. I.e train on 1 year, test on 1 month. Do this 3 time for each stock, see which has patterns.
 
+Create [sidebar push off canvas](https://www.w3schools.com/howto/howto_js_sidenav.asp) in minima theme in jekyl
+
