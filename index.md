@@ -28,6 +28,7 @@
 * [Pics](pics.md)
 * [Podcasts & AudioBooks](podcasts-audiobooks.md)
 * [R](r.md)
+* [Rules](rules.md)
 * [Shortcuts](shortcuts.md)
 * [Text Editors](text-editors.md)
 * [Things I want to Do](thing\_to\_do.md)

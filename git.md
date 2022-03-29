@@ -60,6 +60,7 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 
 ### Links
 
+* [Advanced git for developers](https://www.youtube.com/watch?v=duqBHik7nRo) - youtube video of a conference talk. Very informative. 
 * [visual cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) - this is a nice visual website
 * [git internals PDF](https://github.com/pluralsight/git-internals-pdf) - look at git object types and git data model. Page 13 onwards
 * [Git Pro](http://git-scm.com/book/en/v2)
