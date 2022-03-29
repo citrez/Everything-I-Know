@@ -12,6 +12,9 @@ A **statically typed** language (like java) does the opposite.
 Some software design principles that i have picked up from arjan codes youtube channel.
 Cohesion - This is a fancy word for 
 
+## Functional programming
+Programmers use the word 'function' to talk about the things they make, but actually they are very different to mathematical functions. A mathematical functions maps elements in the domain to outputs in the codomain. MAthematical functions dont 'see the outside world', there are no side effects, they are very pure in that sense.
+
 ## BASH/ZSH
 
 [Bash tutorial](https://flaviocopes.com/bash/)

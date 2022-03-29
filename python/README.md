@@ -2,11 +2,13 @@
 
 ## Links
 
+[Using black in vscode](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)
+
 * [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) is the definative style guide in python and should be used like the bible. 
 
 * [Advanced Python](https://www.pythontutorial.net/advanced-python/)
-    * A [Closures](https://www.pythontutorial.net/advanced-python/python-closures/) is a nested function that references one or more variables from its enclosing scope. - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function.
-    * [Decorators](https://www.pythontutorial.net/advanced-python/python-decorators/)
+    * [Closure](https://www.pythontutorial.net/advanced-python/python-closures/) These are a nested functions that references one or more variables from its enclosing scope. - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function.
+    * [Decorators](https://www.pythontutorial.net/advanced-python/python-decorators/) are functions that return functions that have been been modified with new functionality. 
 
 * [Object Oriented Programming](https://www.pythontutorial.net/python-oop/)
 Everything in python is an object. An object has a state/data (attributes) and behaviors (methods). To create an object you need to define the class it belongs to and from there you can create/instantiate 1 or more objects. The objects are an instance of the class.
@@ -45,9 +47,54 @@ I see these as like the blue print of classes. They set out methods that are nee
 * Selenium
 [Waiting](https://selenium-python.readthedocs.io/waits.html)
 
-* pyenv
-Use pyenvs for using different python versions both globally and locally in directories/projects.
-```pyenv versions``` shows you what you have.
+## pyenv
+Use pyenvs for using different python versions both globally and locally in directories/projects. What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
+
+Why use pyenv?
+It is a great tool for managing many versions of python, meaning you can easily try out new language features. 
+
+Why not use 'system python'?
+'System python' is just the python that comes installed on your operating system. If you use mac or linux, by default when you type python in your terminal you get a nice pyhon [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop). After all, this python belongs to the operating system, and when you run `which python` that is what is used. But this python version is 2.7.12 (just run `python -V`)
+
+Probelms of installing multiple version of the same package to your system python tend to bite you when you least excpect it. You may find you have installed the wrong version of a dependancy of another pacakge and its causing lots of errors. 
+
+So we want 4 things from pyenv:
+1. Install Python in your user space
+2. Install multiple versions of Python
+3. Specify the exact Python version you want
+4. Switch between the installed versions
+
+### Using pyenv to install python
+
+`pyenv install --list | grep " 3\.[678]"` This shows all the Python versions that pyenv knows about that match the regular expression.
+
+Once you find the version you want, you can install it with the command `pyenv install -v 3.7.1`
+
+pyenv works by building Python from source. Each version that you have installed is located nicely in your pyenv root directory
+`ls ~/.pyenv/versions/` will show you all the version, and deleting one is as easy as 
+`rm -rf ~/.pyenv/versions/2.7.15`
+Of course pyenv also provides a command to uninstall a particular Python version `pyenv uninstall 2.7.15`
+
+Lets checks the versions of python we have available with ```pyenv versions```. The * indicates which python version is currently active.
+
+`python -V` shows you the version of python youre using.
+
+If you try to confirm using `which python` you get /home/realpython/.pyenv/shims/python, which isnt helpful.
+
+This might be surprising, but this is how pyenv works. pyenv inserts itself into your PATH and from your OS’s perspective is the executable that is getting called. If you want to see the actual path, you can run the following
+`pyenv which python`
+
+If you wanted to switch to using 2.7.15, it is as simple as running the global command
+`pyenv global 2.7.15`
+then use 
+`pyenv versions` to check it has been changed. 
+`pyenv global system` will take you back to your system default
+
+
+[understanding shims](https://github.com/pyenv/pyenv#understanding-shims). Shims are just appending pyenvs desired python or pip to the begining of your $PATH enviroment variable, so that it redicts you to where it wants. 
+
+
+
 [virtualenv in jupyter ](https://janakiev.com/blog/jupyter-virtual-envs/)
 
 ```

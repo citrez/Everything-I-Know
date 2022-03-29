@@ -32,13 +32,14 @@ run one line in the termianl
 
 ### VScode extensions
 
-### Shortcuts
-(I use these on my mac)
+* Gitlens - Supercharge git in vscode
+    [walkthrough](https://www.youtube.com/watch?v=rxKGgSLwOnU)
 
 
 ## vim
 vim is a nice very minimal text editor that is convenient to use from the command line and makes you look like a real developer.
 Type vimtutor to get a document that gives you the main commands needed for vim. 
+Run `vimtutor` command in the terminal for a great interactive tutorial.
 
 ## Links
 
