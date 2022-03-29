@@ -8,16 +8,16 @@ Even worse, if you actually do reach your consumption quota, you find it doesn't
 This is the formula to a happy and fullfilling day. Repeat these days, often.
 
 - [x] Eat nutritous foods, and only as much as you need
-- [x] Go to bed at 10:00
-- [x] wake up early (preferably do light excersise until work)
+- [ ] Go to bed at 10:00
+- [ ] wake up early (preferably do light excersise until work)
 - [x] Go for a run 
-- [x] Stretch
+- [ ] Stretch
 - [x] Commit to git
 - [x] journal / write in gitbooks
 - [x] play tennis 
-- [x] arrange FNDs and future events
-- [x] Go out for drinks with **key** friends  
-- [x] Wash and moisterise face   
+- [ ] arrange FNDs and future events
+- [ ] Go out for drinks with **key** friends  
+- [x] Wash and moisterise face  d  
 
 If you are not happy. Check how many of these you have done today. 
  
