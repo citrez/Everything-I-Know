@@ -17,7 +17,7 @@ my-package
 
 `poetry install` - If you have a poetry.lock, it will just install the exact versions from there. If no poetry lock, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
 
-`poetry update` - Gives you the latest versions of all your dependacies, subject to all of thier constraints. This command, not only updates the dependacy versions, but it writes them to the lock file. You can update particular packages. `poetry update pandas numpy`
+`poetry update` - Gives you the **latest** versions of all your dependacies, subject to all of thier constraints. This command, not only updates the dependacy versions, but it writes them to the lock file. You can update particular packages. `poetry update pandas numpy`
 
 on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
 
@@ -27,11 +27,13 @@ Article on why everyone should use [poetry](https://hackersandslackers.com/pytho
 
 On an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
 
+`poetry version` - this shows the current version of the poetry project. If you type `poetry version minor`, it bumps up the version.
+
 [poetry commands](https://python-poetry.org/docs/cli/#show) 
 
 ### Dependancy specification 
 
-**Caret requirement**  
+**^ Caret requirement**  
 This updates the package as long as it doesnt modify the left-most digit in the 1.3.2 (major.minor.patch) grouping. So a ^0.1.6 specification could update to 0.1.23 but not 0.2.1
 
 |REQUIREMENT|	VERSIONS ALLOWED|
