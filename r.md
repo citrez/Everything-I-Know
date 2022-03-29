@@ -4,7 +4,6 @@ description: >-
   tidyverse cetric R.
 ---
 
-
 ## Packages
 
 * Blogdown

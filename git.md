@@ -42,7 +42,11 @@ There are lots of different things you may want to do. Suppose you have added so
 
 What if you made changes to a file and actually just want to get rid of all of the changes, and make it look like it did at the last commit (or any other). ```git checkout -- <file>``` will do that for you
 
+## Branching
+
 checkout a remote branch simply by writing ```git checkout remote_branch_name``` even though it doesnt show up in a git branch command, it is still there. A `git branch -a` will show you all branches.
+
+Delete a local branch once it has been used by `git branch -d feature` and you can delete on the remote repository using `git push -d origin feature`
 
 ### Notes
 
