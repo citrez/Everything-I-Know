@@ -14,6 +14,7 @@ otp+cmd+g open chorme
 * cmd + j - toggle terminal
 * cmd + b - toggle sidebar
 * cmd + shift + \ - go to matching bracket
+* cmd + \ - Split editor
 * cmd + d - highlight the word and then the next occurence
 * cmd + o - find classes
 * cmd + shift + . - navigate within the file
@@ -25,6 +26,11 @@ otp+cmd+g open chorme
 * cmd + alt + shift + up/down - multicursor onto new lines
 * alt + cmd + s - Save all files.
 * cmd + k + o - open the file in a new window. 
+
+## VScode - customised 
+> See my keybindings.json for the complete link
+* shift + shift
+* ctrl + ctrl
 
 ## General / Mac
 ctr + up 

@@ -14,6 +14,7 @@
 * White adidas sport socks - [link](https://www.sportsdirect.com/adidas-crew-socks-3-pack-412483#colcode=41248301)
 * Hoodie
 * Tennis Shoes - [link](https://www.sportsdirect.com/k-swiss-court-blast-mens-tennis-shoes-145463#colcode=14546330) - K swiss Court Blast  
+* Underarmour, nike (grey) - big fan. Very useful for winter running. 
 ## Desk Setup
 * Keyboard - Apple magic keyboard
 * Mouse - Apple magic mouse

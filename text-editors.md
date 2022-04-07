@@ -35,6 +35,8 @@ VScode has been an absoloute reveleation to me. Not only does it make you feel l
 * shift + enter
 run one line in the termianl
 
+If having problems connecting your venv to the jupyter kernel. add the path to the venv in setting.json "python.defaultInterpreterPath" setting. Then select it as an interpreter, then it will show up.
+
 ### VScode extensions
 
 * Gitlens - Supercharge git in vscode

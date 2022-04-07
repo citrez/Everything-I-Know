@@ -1,31 +1,6 @@
 # Python
 
-## Links
 
-[Using black in vscode](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)
-
-* [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) is the definative style guide in python and should be used like the bible. 
-
-* [Advanced Python](https://www.pythontutorial.net/advanced-python/)
-    * [Closure](https://www.pythontutorial.net/advanced-python/python-closures/) These are a nested functions that references one or more variables from its enclosing scope. - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function.
-    * [Decorators](https://www.pythontutorial.net/advanced-python/python-decorators/) are functions that return functions that have been been modified with new functionality. 
-
-* [Object Oriented Programming](https://www.pythontutorial.net/python-oop/)
-Everything in python is an object. An object has a state/data (attributes) and behaviors (methods). To create an object you need to define the class it belongs to and from there you can create/instantiate 1 or more objects. The objects are an instance of the class.
-
-* [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) - this site can be used for learning other languages too!
-
-* [Creating modules in Python](https://docs.python.org/3/tutorial/modules.html)
-
-* [Book for creating packages in Python](https://py-pkgs.org/01-introduction)
-
-* [Decorators](https://www.youtube.com/watch?v=tfCz563ebsU\&ab\_channel=TechWithTim)
-
-* [zip](https://careerkarma.com/blog/python-zip/)
-
-* [unpacking](https://stackabuse.com/unpacking-in-python-beyond-parallel-assignment/)
-
-* [Excpetion Hierarchy](https://docs.python.org/2/library/exceptions.html#exception-hierarchy)
 
 ## Abstract base classes ABC
 I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
@@ -48,6 +23,9 @@ I see these as like the blue print of classes. They set out methods that are nee
 [Waiting](https://selenium-python.readthedocs.io/waits.html)
 
 ## pyenv
+
+[Intro to pyenv](https://realpython.com/intro-to-pyenv/)
+
 Use pyenvs for using different python versions both globally and locally in directories/projects. What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
 
 Why use pyenv?
@@ -93,7 +71,7 @@ then use
 
 [understanding shims](https://github.com/pyenv/pyenv#understanding-shims). Shims are just appending pyenvs desired python or pip to the begining of your $PATH enviroment variable, so that it redicts you to where it wants. 
 
-
+## Jupyter
 
 [virtualenv in jupyter ](https://janakiev.com/blog/jupyter-virtual-envs/)
 
@@ -136,8 +114,6 @@ Usually in python you need to give type hints and then instantialise the object,
 Adding validator decorators is where pydantic really shines.
 [8 reasons to start using pydantic](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
 
-
-
 ## pytest
 pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
 
@@ -155,6 +131,9 @@ test a particular function using
 More generally, check out the pytest [conventions for test discovery](https://docs.pytest.org/en/6.2.x/goodpractices.html#test-discovery)
 
 Use [fixtures](https://docs.pytest.org/en/6.2.x/fixture.html#fixtures) if you need to prepare data for a test.
+
+I was getting a discoverabilty error using vscode with pytest. You can add params such as --ignore=oodle-data-flow to tell it not to look at the tests of certain dirs. Then add this to your settings.json with "python.testing.pytestArgs": ["--ignore=oodle-data-flow"]. `pytest --collect-only` is your friend, it tells you which tests are going to be run. By default pytest works from you root directory.
+The full command used was `pytest --collect-only --ignore=oodle-data-flow`
 
 ## Notes
 
@@ -202,3 +181,29 @@ The setup.py file is what describes your pachage and tells setuptools how to pac
 
 [how to package a python](https://py-pkgs.org/03-how-to-package-a-python)
 
+## Links
+
+[Using black in vscode](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)
+
+* [PEP-8 Style guide for python](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) is the definative style guide in python and should be used like the bible. 
+
+* [Advanced Python](https://www.pythontutorial.net/advanced-python/)
+    * [Closure](https://www.pythontutorial.net/advanced-python/python-closures/) These are a nested functions that references one or more variables from its enclosing scope. - In python you can define a function within a functon (a nested function) and use a variable that is definied in the outer function.
+    * [Decorators](https://www.pythontutorial.net/advanced-python/python-decorators/) are functions that return functions that have been been modified with new functionality. 
+
+* [Object Oriented Programming](https://www.pythontutorial.net/python-oop/)
+Everything in python is an object. An object has a state/data (attributes) and behaviors (methods). To create an object you need to define the class it belongs to and from there you can create/instantiate 1 or more objects. The objects are an instance of the class.
+
+* [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) - this site can be used for learning other languages too!
+
+* [Creating modules in Python](https://docs.python.org/3/tutorial/modules.html)
+
+* [Book for creating packages in Python](https://py-pkgs.org/01-introduction)
+
+* [Decorators](https://www.youtube.com/watch?v=tfCz563ebsU\&ab\_channel=TechWithTim)
+
+* [zip](https://careerkarma.com/blog/python-zip/)
+
+* [unpacking](https://stackabuse.com/unpacking-in-python-beyond-parallel-assignment/)
+
+* [Excpetion Hierarchy](https://docs.python.org/2/library/exceptions.html#exception-hierarchy)

@@ -41,3 +41,6 @@ Toggle between the start of line and current cursor position: Ctrl + XX
 Nikita voloboev does it again, this is a great blog explaining how he set up his [shell](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805)
 
 [vim configurations repo](https://github.com/amix/vimrc)
+
+## Links
+[Understanding linux file permissions](https://linuxfoundation.org/blog/classic-sysadmin-understanding-linux-file-permissions/)

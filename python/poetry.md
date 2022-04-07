@@ -13,7 +13,7 @@ my-package
 
 `poetry init` - poetr-ify a directory
 
-```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. 
+```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. Add a `develop = true` in the toml file, to add a package in editable mode.
 
 `poetry install` - If you have a poetry.lock, it will just install the exact versions from there. If no poetry lock, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
 
@@ -46,7 +46,7 @@ This updates the package as long as it doesnt modify the left-most digit in the 
 |^0.0	|>=0.0.0 <0.1.0|
 |^0	|>=0.0.0 <1.0.0|
 
-**Tilde requirements**  
+**~ Tilde requirements**  
 A bit similar to carat. If you speficy 2.1.1, or 2.1 only patch updates are allow. If you specify `pandas ~1` then minor updates are allowed too. 
 
 **Wildcard requirements**  
@@ -73,5 +73,6 @@ You can specify the exact version of a package. This will tell Poetry to install
 **Multiple requirements**
 Multiple version requirements can also be separated with a comma, e.g. `>= 1.2, < 1.5`.
 
-Links  
-[Youtube video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
+## Links  
+* [Youtube video on poetry](https://www.youtube.com/watch?v=G-OAVLBFxbw&ab_channel=PyBites)
+* [Pyenv + poetry](https://blog.jayway.com/2019/12/28/pyenv-poetry-saviours-in-the-python-chaos/)

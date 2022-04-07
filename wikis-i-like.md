@@ -12,6 +12,7 @@ description: >-
 * [Maggie appleton](https://maggieappleton.com/garden-history). Maybe the best example of a digital garden.
 * [Tom Crichlow](https://tomcritchlow.com/wiki/) - quite like the minimal design
 * [zettelgarden](https://garden.rahulrajeev.net/first-principles) - cool idea, just using a graph to traverse the wiki
+* [wayanjimmy](https://wayanjimmy.xyz/) - quite like this font for a minimal wiki design
 
 
 
