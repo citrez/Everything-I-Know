@@ -1,6 +1,6 @@
 # Poetry  
 
-Poetry is a dependancy management tool. In plain english, in any project there are a bunch of other packages that it relies on. i.e, we might need pandas 1.3.5 which relies on numpy 1.21.1, but scipy 1.6.1 also relies on numpy but needs numpy to be less than 1.0.0, sorting out this headache is the job of a package managment tool. It gives you the most recent version of the packages you need that satisfy your constraints.  
+Poetry is a dependancy management tool. In short, within any project there are a host of other external packages that the project relies on. e.g, we might need pandas 1.3.5 which relies on numpy 1.21.1, but scipy 1.6.1 also relies on numpy but needs numpy to be less than 1.0.0, we therefor need to use pandas 1.2.9 which is also compatible with an earlier version of scipu/ Sorting out this headache is the job of a package managment tool. It gives you the most recent version of the packages you need that satisfy your constraints.  
 
 [Realpython - dependency management with poetry](https://realpython.com/dependency-management-python-poetry/) gives a good explaination and  has a useful command reference section.
 
@@ -8,26 +8,24 @@ Poetry is a dependancy management tool. In plain english, in any project there a
 
 `poetry` - show a list of available commands.
 
-```poetry new test```  - Create a poetry directory structure, with the pyproject.toml file etc. 
+```poetry new new-package```  - Create a poetry directory structure, with the pyproject.toml file etc. 
 my-package
 
-`poetry init` - poetr-ify a directory
+`poetry init` - poetry-ify a directory
 
 ```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. 
 
-`poetry install` - If you have a poetry.lock, it will just install the exact versions from there. If no poetry lock, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
+`poetry install` - If you have a poetry.lock, this command will just install the exact versions of all relevant packages from there. If no poetry.lock file exists, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the latest versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
 
 `poetry update` - Gives you the **latest** versions of all your dependacies, subject to all of thier constraints. This command, not only updates the dependacy versions, but it writes them to the lock file. You can update particular packages. `poetry update pandas numpy`
 
-on an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
+On an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
 
-`poetry run` - run a command from poetrys virtualenv
+`poetry run` - run a command from poetrys virtualenv. Presumably, the equivalent can be done by activating the virtualenv
 
 Article on why everyone should use [poetry](https://hackersandslackers.com/python-poetry-package-manager/)
 
-On an existing project with a pyproject.toml file and poetry install creates a virtualenv for you and installs all the dependancies
-
-`poetry version` - this shows the current version of the poetry project. If you type `poetry version minor`, it bumps up the version.
+`poetry version` - this shows the current version of your poetry project. If you type `poetry version minor`, it bumps up the version.
 
 [poetry commands](https://python-poetry.org/docs/cli/#show) 
 
