@@ -10,6 +10,6 @@ description: This is where i put resources and ideas for design
 ## Links
 
 [Understanding colour](https://www.youtube.com/watch?v=Qj1FK8n7WgY) - a great video on how to better understand colour. 
-
+[font pairings](https://github.com/techCarpenter/garage-wiki/blob/master/font-pairings.md#raleway--goudy)
 
 
