@@ -11,6 +11,7 @@ This list is in descending order of importance.
     1. Create image gallery for about me
 2. Customise Wiki github pages
    1. Create [sidebar push off canvas](https://www.w3schools.com/howto/howto_js_sidenav.asp) in minima theme in jekyl.
+2. update mums website
 3. Make basic IG trading bot.
     1. Get streaming data to work.
     2. Implement a simple strategy on demo account to place a deal using some criteria from the data stream.
