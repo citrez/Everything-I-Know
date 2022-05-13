@@ -12,19 +12,24 @@ This list is in descending order of importance.
 2. Customise Wiki github pages
    1. Create [sidebar push off canvas](https://www.w3schools.com/howto/howto_js_sidenav.asp) in minima theme in jekyl.
 2. update mums website
-3. Make basic IG trading bot.
+   1. Set up evalutation
+   2. set up monitoring
+
+1. Make basic IG trading bot.
     1. Get streaming data to work.
     2. Implement a simple strategy on demo account to place a deal using some criteria from the data stream.
     3. Find the equities that best fit poly splines. And which have high volatility to profit from. But not too high.
-4. Check Elis coverage initiation idea.
+2. Check Elis coverage initiation idea.
     1. Find data of historical initation.
     2. Find a websites to scrape new initiations from.
-5. Enter a kaggle compentition
-6. Read and finish coding books.
+3. Enter a kaggle compentition
+4. Read and finish coding books.
     1. Python data sci handbook
-7. Explore survival analysis.
-8. Get a datebase onto AWS
-9.  Update mums website. citronpsychology.co.uk
+1. Get a datebase onto AWS
+1. Enter a kaggle compentition
+2.  Explore survival analysis.
+3.  
+
 
 Instead of trying to predict a particular stock, look for stocks that are _intrisically_ predictable. I.e train on 1 year, test on 1 month. Do this 3 time for each stock, see which has patterns.
 

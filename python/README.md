@@ -211,3 +211,7 @@ Everything in python is an object. An object has a state/data (attributes) and b
 * [unpacking](https://stackabuse.com/unpacking-in-python-beyond-parallel-assignment/)
 
 * [Excpetion Hierarchy](https://docs.python.org/2/library/exceptions.html#exception-hierarchy)
+
+## argparse
+This is pythons built in command line parsing module in the standard python library. 
+[Docs](https://docs.python.org/3/howto/argparse.html#id1)

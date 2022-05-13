@@ -2,6 +2,8 @@
 
 ## Navigation
 
+
+
 Clean up the line: You can use Ctrl+U to clear up to the beginning.
 Clean up the line: Ctrl+E Ctrl+U to wipe the current line in the terminal
 Clean up the line: Ctrl+A Ctrl+K to wipe the current line in the terminal
@@ -40,9 +42,11 @@ Toggle between the start of line and current cursor position: Ctrl + XX
 [bash aliases you cant live without](https://opensource.com/article/19/7/bash-aliases)
 [the sybols for the prompt](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
 Nikita voloboev does it again, this is a great blog explaining how he set up his [shell](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805)
-
 [vim configurations repo](https://github.com/amix/vimrc)
 [Shorten path in ZSH prompt](https://unix.stackexchange.com/questions/273529/shorten-path-in-zsh-prompt)
 
 ## Links
 [Understanding linux file permissions](https://linuxfoundation.org/blog/classic-sysadmin-understanding-linux-file-permissions/)
+## Dot files
+You can use dot files to configure all sorts of applicantions.
+[Fireship on dot files](https://www.youtube.com/watch?v=r_MpUP6aKiQ&list=WL&index=27)
