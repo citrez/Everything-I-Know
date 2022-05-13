@@ -23,7 +23,6 @@ Description: A high level description what the page wants to achieve.
 Write Ups: A write up of my thoughts on the topic. 
 Links: Links to resources on the topic. With a description and explaination of the link.
 
-
 Although I realise that this template might not always be relevant.
 
 ### Where to put information
