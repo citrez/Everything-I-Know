@@ -202,3 +202,7 @@ The setup.py file is what describes your pachage and tells setuptools how to pac
 
 [how to package a python](https://py-pkgs.org/03-how-to-package-a-python)
 
+
+## argparse
+This is pythons built in command line parsing module in the standard python library. 
+[Docs](https://docs.python.org/3/howto/argparse.html#id1)
