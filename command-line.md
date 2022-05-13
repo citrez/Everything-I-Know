@@ -28,6 +28,7 @@ Toggle between the start of line and current cursor position: Ctrl + XX
 
 * `tree` is a tool for showing your current working directory in as a tree. 
 * [trld](https://tldr.sh/) command line tool for giving a . Very useful.
+* pbcopy / pbpaste - copying to clipboard
 
 ## cron jobs for automating tasks
 [freecodecamp - cron jobs](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
@@ -41,6 +42,7 @@ Toggle between the start of line and current cursor position: Ctrl + XX
 Nikita voloboev does it again, this is a great blog explaining how he set up his [shell](https://medium.com/@nikitavoloboev/pretty-and-fast-shell-97ea870f2805)
 
 [vim configurations repo](https://github.com/amix/vimrc)
+[Shorten path in ZSH prompt](https://unix.stackexchange.com/questions/273529/shorten-path-in-zsh-prompt)
 
 ## Links
 [Understanding linux file permissions](https://linuxfoundation.org/blog/classic-sysadmin-understanding-linux-file-permissions/)

@@ -42,6 +42,7 @@ There are lots of different things you may want to do. Suppose you have added so
 
 What if you made changes to a file and actually just want to get rid of all of the changes, and make it look like it did at the last commit (or any other). ```git checkout -- <file>``` will do that for you
 
+[Revent, Restore, Reset](https://stephencharlesweiss.com/git-restore-reset-revert)
 ## Branching
 
 checkout a remote branch simply by writing ```git checkout remote_branch_name``` even though it doesnt show up in a git branch command, it is still there. A `git branch -a` will show you all branches.
@@ -53,6 +54,12 @@ Delete a local branch once it has been used by `git branch -d feature` and you c
 Head, Tags, Branches and remotes all just point to a commit, which are directories of blobs (the data stored in git). Commits are just snapshots of your directory at a given point in time. 
 
 ### Commands
+
+`git restore` - The either helps you to unstage things. Or the restore command can discard local changing, restoring the last commited state. 
+`git restore .` - will restore all uncommited files back the state they were in at the previous commit. **This is a dangerous operation** 
+`git restore --staged main.py` removes the file from the staged area but keeps the modifications untouched. 
+
+`git fetch -p` - This removes any remote tracking references no that no longer exist of the remote. 
 
 * `git gui` or  `gitk`- for getting up a graphical interface
 
@@ -68,3 +75,4 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 * [Interactive Visualisation of how git works](https://git-school.github.io/visualizing-git/)
 * [git for professionals ](https://www.youtube.com/watch?v=Uszj_k0DGsg\&t=18s\&ab_channel=freeCodeCamp.org)freecodecamp video
 * [practicaldatascience](https://www.practicaldatascience.org/html/git_and_github.html) give a short intro to git in thier DS course. Nice beginer intro.
+* [Setting up multiple SSH keys for different github account](https://gist.github.com/jexchan/2351996). This was used to be able to read and write to the same EIK repo on both my work and personal laptop. The idea is, that you need to generate a ssh key pair on your work laptop, and then all the public key to citrez account. Then on you work laptop, add to the ssh config, that you should use the (new) private ssh key, when the citrez account is asking for requests. 

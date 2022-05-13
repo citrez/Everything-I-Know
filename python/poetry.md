@@ -14,6 +14,13 @@ my-package
 `poetry init` - poetry-ify a directory
 
 ```poetry add pandas 1.30```  - adds a dependancy to your project. You can use [dependancy specification](https://python-poetry.org/docs/dependency-specification/) to be more specific. Use ```--dev``` to add dev dependancies. This command adds it to the toml file but also installs it in your env. Add a `develop = true` in the toml file, to add a package in editable mode.
+To install a local package in editable mode, it needs to be built using the right build system. Using [poetry and PEP-517](https://python-poetry.org/docs/pyproject/#poetry-and-pep-517). It boils down to adding the following the pyproject.toml
+```
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+```
+
 
 `poetry install` - If you have a poetry.lock, this command will just install the exact versions of all relevant packages from there. If no poetry.lock file exists, this takes the dependacies you need from your pyproject file, resolves them (meaning if finds all the latest versions of the packages you need that dont conflict) and then installs them to your virtualenv and creates a virtualenv. If you dont want to development dependacies add `--no-dev`. Also, poetry installs the actual project itself into your environment. `--no-root` disables installing the actual package itself.
 

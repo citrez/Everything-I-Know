@@ -12,6 +12,7 @@
 
 * [Poly and Spline regressions in R](http://www.sthda.com/english/articles/40-regression-analysis/162-nonlinear-regression-essentials-in-r-polynomial-and-spline-regression-models/)
 * [](http://www.ru.ac.bd/wp-content/uploads/sites/25/2019/03/207_05_01_Rajchka_Using-Python-for-machine-learning-2015.pdf)
+* [Google ML Ops: Continuos delivery and automation pipelines in ML](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
 
 
 ### Interpretable ML

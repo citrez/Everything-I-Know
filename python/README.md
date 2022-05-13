@@ -137,6 +137,8 @@ The full command used was `pytest --collect-only --ignore=oodle-data-flow`
 
 ## Notes
 
+If you want to save a python object, you can save it locally as a pickle file, and reload it at willl. 
+
 A **module** is a bunch of related code saved in a file with the extension .py. Python modules help you focus on one small portion of a task rather than an entire problem. . With Python modules, you can define separate namespaces to avoid collisions between identifiers in different parts of your application.
 
 **Packages** are a directory of a collection of modules. Packages allow the hierarchical structure of the module namespace. Just like we organize our files on a hard drive into folders and sub-folders, we can organize our modules into packages and subpackages.
@@ -182,6 +184,8 @@ The setup.py file is what describes your pachage and tells setuptools how to pac
 [how to package a python](https://py-pkgs.org/03-how-to-package-a-python)
 
 ## Links
+
+[After editing a module, changes are not effective without kernel restart](https://support.enthought.com/hc/en-us/articles/204469240-Jupyter-IPython-After-editing-a-module-changes-are-not-effective-without-kernel-restart)
 
 [Using black in vscode](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)
 
