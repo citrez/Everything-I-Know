@@ -48,3 +48,5 @@ I dont much like the interface of onenote so i try to keep my usage to a minimum
 #### Chrome bookmarks
 
 Webpages that i visit all the time should be bookmarked and sorted into bookmark folders.
+
+A github action has been setup on the repository to automatically push this wiki to https://citrez.github.io/Everything-I-Know/
