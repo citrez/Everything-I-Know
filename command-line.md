@@ -31,8 +31,14 @@ Toggle between the start of line and current cursor position: Ctrl + XX
 * `tree` is a tool for showing your current working directory in as a tree. 
 * [trld](https://tldr.sh/) command line tool for giving a . Very useful.
 * pbcopy / pbpaste - copying to clipboard
+* use && to do one command after another e.g cd repos/ && ls or git checkout master && git pull origin master. Use this to setup powerful jobs.
 
 ## cron jobs for automating tasks
+
+use crontab -e in command line to edit scripts. 
+[Interesting cron jobs in daily life](https://dev.to/cyril/what-is-your-top-interesting-cron-job-for-your-daily-life-5hi6)
+[Fixing cron jobs in mac OS](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
+
 [freecodecamp - cron jobs](https://www.freecodecamp.org/news/cron-jobs-in-linux/)
 [generator to help create cron jobs](https://crontab-generator.org/)
 
@@ -50,3 +56,8 @@ Nikita voloboev does it again, this is a great blog explaining how he set up his
 ## Dot files
 You can use dot files to configure all sorts of applicantions.
 [Fireship on dot files](https://www.youtube.com/watch?v=r_MpUP6aKiQ&list=WL&index=27)
+
+## CRON 
+very powerfull automation system built into mac
+Couldnt get to work initially, need to give the right access 
+[See this blog](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
