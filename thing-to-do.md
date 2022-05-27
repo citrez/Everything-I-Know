@@ -35,6 +35,8 @@ Instead of trying to predict a particular stock, look for stocks that are _intri
 
 If ever you can't think of something useful, take a look at wikis-i-like, resources or youtube-watch later.
 
+Data is hard. Data can be complicated. Lets not make it harder than it needs to be. Data documentation / organisation unleashes the power of data in your ogranisation, so that anaylsts/ data scientists can actually do thier jobs. 
+
 
 
 

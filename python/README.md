@@ -139,6 +139,10 @@ Use [fixtures](https://docs.pytest.org/en/6.2.x/fixture.html#fixtures) if you ne
 I was getting a discoverabilty error using vscode with pytest. You can add params such as --ignore=oodle-data-flow to tell it not to look at the tests of certain dirs. Then add this to your settings.json with "python.testing.pytestArgs": ["--ignore=oodle-data-flow"]. `pytest --collect-only` is your friend, it tells you which tests are going to be run. By default pytest works from you root directory.
 The full command used was `pytest --collect-only --ignore=oodle-data-flow`
 
+## Inspect
+This can be used to inspect live objects like modules, classes, methods, functions, tracebacks...
+[Inspect docs](https://docs.python.org/3/library/inspect.html#classes-and-functions)
+
 ## Notes
 
 If you want to save a python object, you can save it locally as a pickle file, and reload it at willl. 

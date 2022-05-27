@@ -53,6 +53,13 @@ Delete a local branch once it has been used by `git branch -d feature` and you c
 
 Head, Tags, Branches and remotes all just point to a commit, which are directories of blobs (the data stored in git). Commits are just snapshots of your directory at a given point in time. 
 
+You can pipe a diff into a file to see the difference  
+```git diff file1.csv file2.csv > the_diff.diff```
+
+
+To reset the remote path use  
+``` git remote set-url origin```
+
 ### Commands
 
 `git restore` - The either helps you to unstage things. Or the restore command can discard local changing, restoring the last commited state. 
@@ -75,5 +82,6 @@ Head, Tags, Branches and remotes all just point to a commit, which are directori
 * [Interactive Visualisation of how git works](https://git-school.github.io/visualizing-git/)
 * [git for professionals ](https://www.youtube.com/watch?v=Uszj_k0DGsg\&t=18s\&ab_channel=freeCodeCamp.org)freecodecamp video
 * [practicaldatascience](https://www.practicaldatascience.org/html/git_and_github.html) give a short intro to git in thier DS course. Nice beginer intro.
-* [Setting up multiple SSH keys for different github account](https://gist.github.com/jexchan/2351996). This was used to be able to read and write to the same EIK repo on both my work and personal laptop. The idea is, that you need to generate a ssh key pair on your work laptop, and then all the public key to citrez account. Then on you work laptop, add to the ssh config, that you should use the (new) private ssh key, when the citrez account is asking for requests.
+* [Setting up multiple SSH keys for different github account](https://gist.github.com/jexchan/2351996). This was used to be able to read and write to the same EIK repo on both my work and personal laptop. The idea is, that you need to generate a ssh key pair on your work laptop, and then all the public key to citrez account. Then on you work laptop, add to the ssh config, that you should use the (new) private ssh key, when the citrez account is asking for requests. You will also need to add you work account as a collaberator on the project.
+[SSH Keys for github](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html) - checkout githubs own docs as well
 * [The git parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html) - written by the founder of github. 
