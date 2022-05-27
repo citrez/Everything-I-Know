@@ -31,7 +31,7 @@ The challenges assosiated with gaining knowledge have transformed. In days gone 
 
 #### Everything-I-Know Wiki
 
-This is for documenting knowledge that I gain. Learned a new ML technique? Found out something cool about vscode? Found an amazing blog about running. This is the place for all these things.
+This is for documenting knowledge that I gain. Learned a new ML technique? Found out something cool about vscode? Found an amazing blog about running. This is the place for all these things. One thing to be careful of, do not mindlessly add links without first reading them. I do not want this wiki to be a place where information comes to die, it should document things that I know/ have known. 
 
 #### Google Drive
 
