@@ -60,6 +60,9 @@ You can pipe a diff into a file to see the difference
 To reset the remote path use  
 ``` git remote set-url origin```
 
+
+If you are in the middle of a merge conflict and just want to go back to how it was before run a 
+`git reset --hard HEAD` - THIS IS A DANGEROUS COMMAND
 ### Commands
 
 `git restore` - The either helps you to unstage things. Or the restore command can discard local changing, restoring the last commited state. 

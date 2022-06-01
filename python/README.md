@@ -1,7 +1,5 @@
 # Python
 
-
-
 ## Abstract base classes ABC
 I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
 
@@ -26,7 +24,7 @@ I see these as like the blue print of classes. They set out methods that are nee
 
 [Intro to pyenv](https://realpython.com/intro-to-pyenv/)
 
-Use pyenvs for using different python versions both globally and locally in directories/projects. What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
+Use pyenvs for using different python versions both globally and locally (in directories/projects). What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
 
 Why use pyenv?
 It is a great tool for managing many versions of python, meaning you can easily try out new language features. 
@@ -71,6 +69,13 @@ then use
 
 [understanding shims](https://github.com/pyenv/pyenv#understanding-shims). Shims are just appending pyenvs desired python or pip to the begining of your $PATH enviroment variable, so that it redicts you to where it wants. 
 
+
+In this folder there is a whole bunch of different pythons `/Users/ezra.citron/.pyenv/shims`.
+Then this folder is appended to the begining of your $PATH variable. 
+
+Find your global pyenv version here `cat ~/.pyenv/version`
+
+[Real python into-to-pyenv article](https://realpython.com/intro-to-pyenv/)
 ## Jupyter
 
 [virtualenv in jupyter ](https://janakiev.com/blog/jupyter-virtual-envs/)
