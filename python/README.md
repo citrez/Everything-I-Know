@@ -119,6 +119,10 @@ Usually in python you need to give type hints and then instantialise the object,
 Adding validator decorators is where pydantic really shines.
 [8 reasons to start using pydantic](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
 
+## argparse
+A package for developing command line interfaces.
+It is possible to make python packages, that when they are intalled in your env, give you command line commands. Poetry can point the package towards scripts which create them. I have a toy repo for a TODO CLI. 
+[CLI that can be installed with pip](https://stackoverflow.com/questions/56534678/how-to-create-a-cli-in-python-that-can-be-installed-with-pip)
 ## pytest
 pytest is a framework to help you write small tests for your python code. pytest is a package for python that can be installed using pip. But gives you access to a cmd line executable 'pytest' which basically does the same thing. You can group many tests in a class to help organise yourself.
 

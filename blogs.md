@@ -22,7 +22,7 @@ NOTE: Use newsify to keep on top of the bloggers I like.
 * [flavio copes](https://flaviocopes.com/) - a very insightful blog with great free code ebooks.
 * [practical business python](https://pbpython.com/)
 * [Tenence Tao](https://terrytao.wordpress.com/)
-* 
+* [Tom preston werner](https://tom.preston-werner.com/) - founder of github, a person worth listening to. 
 
 ## Articles
 * [what is code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
