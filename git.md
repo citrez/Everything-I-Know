@@ -63,6 +63,8 @@ To reset the remote path use
 
 If you are in the middle of a merge conflict and just want to go back to how it was before run a 
 `git reset --hard HEAD` - THIS IS A DANGEROUS COMMAND
+
+See which commit head is pointing to using. `cat .git/HEAD`. `HEAD^` will take you to the parent of the HEAD commit. 
 ### Commands
 
 `git restore` - The either helps you to unstage things. Or the restore command can discard local changing, restoring the last commited state. 
@@ -71,9 +73,13 @@ If you are in the middle of a merge conflict and just want to go back to how it 
 
 `git fetch -p` - This removes any remote tracking references no that no longer exist of the remote. 
 
-* `git gui` or  `gitk`- for getting up a graphical interface
+`git gui` or  `gitk`- for getting up a graphical interface
+
+`git merge --abort` - this aborts a merge currently in happening. 
 
 [Addings SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+[add autocompletions to branchs, mac](https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-lin)
 
 ### Links
 

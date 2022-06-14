@@ -12,6 +12,7 @@ I see these as like the blue print of classes. They set out methods that are nee
 * **Pandas** implements the pandas dataframe, a staple in any data anaylitics in python.
   * [Method chaining](https://towardsdatascience.com/the-unreasonable-effectiveness-of-method-chaining-in-pandas-15c2109e3c69) can be used in python much like the pipe in R.
   * [Link](https://towardsdatascience.com/how-to-show-all-columns-rows-of-a-pandas-dataframe-c49d4507fcf). Show more rows and columns when displaying a dataframe in a notebook. 
+  
 
 * Flask
 [Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
@@ -167,6 +168,9 @@ if __name__ == __main__:
 
 ```
 paradigm works. This is also why we can import things at the begining of modules. 
+
+Storing passwords in python can be problematic, you dont want those collaberating on your code, or even looking at your code to be able to see them. 
+[Here](https://stackoverflow.com/a/53027302) is a stackoverflow discussion around the topic. 
 
 ## Creating Packages
 

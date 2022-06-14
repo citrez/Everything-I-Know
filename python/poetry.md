@@ -37,7 +37,7 @@ Article on why everyone should use [poetry](https://hackersandslackers.com/pytho
 [poetry commands](https://python-poetry.org/docs/cli/#show) 
 
 ### Dependancy specification 
-
+[docs](https://python-poetry.org/docs/dependency-specification/)
 **^ Caret requirement**  
 This updates the package as long as it doesnt modify the left-most digit in the 1.3.2 (major.minor.patch) grouping. So a ^0.1.6 specification could update to 0.1.23 but not 0.2.1
 
