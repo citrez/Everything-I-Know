@@ -75,7 +75,47 @@ This is an instrument identifier.
 * [R cyrpto bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 
 ## Notes of algo trading talk
+### Links
+[gist of the whole session](https://gist.github.com/yhilpisch/fcc2f4665cbae77904c03f66a10ba8a7)
+[The talk slides](https://certificate.tpq.io/odsc_ldn_2022.pdf)
+[Dr yves website](https://home.tpq.io/certificate-programs/pyalgo/)
+[Algo trading in less than 100 lines of code](https://www.oreilly.com/content/algorithmic-trading-in-less-than-100-lines-of-python-code/) - this is an oriely article.
+[oanda web-based trading](https://trade.oanda.com/)
+[gist with the code](https://gist.github.com/yhilpisch/fcc2f4665cbae77904c03f66a10ba8a7) - this is also linked in the slides.
+[The monitoring platform](https://home.tpq.io/aimachine/)
+[Article about efficient market hypothosis](https://www.sciencedirect.com/science/article/abs/pii/S0169207003000128) - 
+
+
+
 
 ### Questions
-How is the upper bound of returns you've seen made using recreational algo trading. 
-deployment. What is the best pipeline for using a piece of logic, a piece of code for actually buying securities, derivatives etc in real time. 
+- How is the upper bound of returns you've seen made using recreational algo trading. 
+deployment. 
+- What is the best pipeline for using a piece of logic, a piece of code for actually buying securities, derivatives etc in real time. 
+- continuous monitoring. Is it possible to get that offline visualitation refreshed for online data. 
+- What is the name of the job that does this type of thing
+
+
+The talk is focusing on the deployment. 
+
+you only need wifi and a couple of open source packages. 
+
+
+Book recomendation - The man who solved the markets. Listen to this. 
+
+Look at oanda trading account. The best API. The paper trading account is the same as the real one. 
+
+
+
+We want to get the tails of the returns distribution correct. If we could just avoid the worst days, we would be doing extremely well. 
+Use r as the baseline stategy
+
+We may need to change our code going from ofline models (on hisotrical data), to online models (when we are actually trying to predict on live data).
+
+We could thoeretically incrementally update our model when new data comes in, this is not what is done ehere. We train our model once using historical data, and then predict it on live data. 
+
+Its all to do with the implementation. The strategy if super super complex. Annecdote of refinitiv when the strategy was implemented in 150 lines and the production code was 15,000 lines. 
+Crypto has nice charachteristics. 24hr trading, great APIs.
+
+Ideas are cheap, its having the robust infrastructure in place to deploy the strategy. 
+
