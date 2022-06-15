@@ -1,7 +1,5 @@
 # Python
 
-
-
 ## Abstract base classes ABC
 I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
 
@@ -14,6 +12,7 @@ I see these as like the blue print of classes. They set out methods that are nee
 * **Pandas** implements the pandas dataframe, a staple in any data anaylitics in python.
   * [Method chaining](https://towardsdatascience.com/the-unreasonable-effectiveness-of-method-chaining-in-pandas-15c2109e3c69) can be used in python much like the pipe in R.
   * [Link](https://towardsdatascience.com/how-to-show-all-columns-rows-of-a-pandas-dataframe-c49d4507fcf). Show more rows and columns when displaying a dataframe in a notebook. 
+  
 
 * Flask
 [Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
@@ -26,7 +25,7 @@ I see these as like the blue print of classes. They set out methods that are nee
 
 [Intro to pyenv](https://realpython.com/intro-to-pyenv/)
 
-Use pyenvs for using different python versions both globally and locally in directories/projects. What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
+Use pyenvs for using different python versions both globally and locally (in directories/projects). What if you are working on a project that supports lots of versions of python, and you want to test out how it will work with a different version. pyenv lets you quickly and easily switch between different instances of python. 
 
 Why use pyenv?
 It is a great tool for managing many versions of python, meaning you can easily try out new language features. 
@@ -74,6 +73,13 @@ then use
 
 [understanding shims](https://github.com/pyenv/pyenv#understanding-shims). Shims are just appending pyenvs desired python or pip to the begining of your $PATH enviroment variable, so that it redicts you to where it wants. 
 
+
+In this folder there is a whole bunch of different pythons `/Users/ezra.citron/.pyenv/shims`.
+Then this folder is appended to the begining of your $PATH variable. 
+
+Find your global pyenv version here `cat ~/.pyenv/version`
+
+[Real python into-to-pyenv article](https://realpython.com/intro-to-pyenv/)
 ## Jupyter
 
 [virtualenv in jupyter ](https://janakiev.com/blog/jupyter-virtual-envs/)
@@ -170,6 +176,9 @@ if __name__ == __main__:
 
 ```
 paradigm works. This is also why we can import things at the begining of modules. 
+
+Storing passwords in python can be problematic, you dont want those collaberating on your code, or even looking at your code to be able to see them. 
+[Here](https://stackoverflow.com/a/53027302) is a stackoverflow discussion around the topic. 
 
 ## Creating Packages
 

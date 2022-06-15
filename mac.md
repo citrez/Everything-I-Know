@@ -13,7 +13,7 @@
 * quickshade - for dimming the screen more
 
 ## Create a keyboard short to launch an App
-In automator I create a quick action, then I make a shortcut for that in settings->keyboard-> shortcuts->services.
+In automator I create a quick action, then I make a shortcut for that in settings -> keyboard -> shortcuts -> services.
 [how to](https://www.computerhope.com/issues/ch002051.htm)
 
 
