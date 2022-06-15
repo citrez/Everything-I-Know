@@ -37,6 +37,7 @@ run one line in the termianl
 
 If having problems connecting your venv to the jupyter kernel. Add the path to the venv in setting.json "python.defaultInterpreterPath" setting. Then select it as an interpreter, then it will show up.
 
+[vscode personalisation](https://iashin.ai/ide_customization.html) - this is a great blog post with loads of good ideas about how to personalise your vsocde experience.
 ### VScode extensions
 
 * Gitlens - Supercharge git in vscode

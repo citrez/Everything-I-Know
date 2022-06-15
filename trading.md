@@ -73,3 +73,9 @@ This is an instrument identifier.
 * [Fully Automated IG](https://www.reddit.com/r/UKInvesting/comments/7q67cw/faig_fully_automated_ig_trading_a_python_script/) - see the github repo too
 
 * [R cyrpto bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
+
+## Notes of algo trading talk
+
+### Questions
+How is the upper bound of returns you've seen made using recreational algo trading. 
+deployment. What is the best pipeline for using a piece of logic, a piece of code for actually buying securities, derivatives etc in real time. 

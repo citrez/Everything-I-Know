@@ -6,3 +6,4 @@ When interacting with open banking data, a customer is redirected to thier bank 
 There seems to be lots of vendors providing APIs which help access open banking data. Which is the best option?
 
 **Tink** provides an API to get open banking information (transactions)
+Nordigen seems to be a free alternative

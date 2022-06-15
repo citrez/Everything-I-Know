@@ -42,6 +42,9 @@ So we want 4 things from pyenv:
 3. Specify the exact Python version you want
 4. Switch between the installed versions
 
+`pyenv install -l` to get the complete list of avaiable pyenv python instalisations
+`pyenv install -l | grep "3.9"` for bonus marks.
+
 ### Using pyenv to install python
 
 `pyenv install --list | grep " 3\.[678]"` This shows all the Python versions that pyenv knows about that match the regular expression.
@@ -113,6 +116,11 @@ Pydantic can be seen as an extension to the built in dataclass module.
 Usually in python you need to give type hints and then instantialise the object, with pydantic the type hints are sufficient.
 Adding validator decorators is where pydantic really shines.
 [8 reasons to start using pydantic](https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678)
+
+## dateutil
+This is really useful for manipulating dates and adding things that
+datetime.datetime does have. examples include the `relativedelta` function for adding
+a year on to your datetime. Or parsing functionality.
 
 ## argparse
 A package for developing command line interfaces.

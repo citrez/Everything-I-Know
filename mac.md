@@ -10,6 +10,7 @@
 * [Rectangle](https://rectangleapp.com/) maybe use this to replace divvy as its free and open source. 
 * Tinkertool - extra command line settings in a GUI
 * alfred. [walkthrough](https://www.youtube.com/watch?v=YFAzSsrXu_0)
+* quickshade - for dimming the screen more
 
 ## Create a keyboard short to launch an App
 In automator I create a quick action, then I make a shortcut for that in settings->keyboard-> shortcuts->services.
