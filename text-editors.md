@@ -17,16 +17,19 @@ If having problems in vscode connecting your venv to the jupyter kernel. Add the
     [walkthrough](https://www.youtube.com/watch?v=rxKGgSLwOnU) - tried this out but was a bit maximalist for my taste
 
 
-## Links
+## VScode Links
 
 * [Visual Studio videos](https://code.visualstudio.com/docs/introvideos/codeediting)
 * [Use venv in vscode](https://code.visualstudio.com/docs/python/environments)
 * [Kite for VScode](https://help.kite.com/article/69-using-the-vs-code-plugin)
 * [Great reasons to use VS code for developing jupyter notebooks](https://pbpython.com/vscode-notebooks.html)
+  * All the top reason for using vscode for notebooks
 * [use a snippet with a keyboard shortcut](https://stackoverflow.com/questions/39333639/visual-studio-code-snippet-as-keyboard-shortcut-key)
 * [data science in VScode](https://code.visualstudio.com/docs/datascience/overview)
-* [VScode user guide](https://code.visualstudio.com/docs/editor/codebasics) - this looks like a very good guide to the main features.
-* [python in vscode](https://code.visualstudio.com/docs/python/editing) has incredible tricks and tips. 
+* [VScode user guide](https://code.visualstudio.com/docs/editor/codebasics)
+  * A very good guide to the main features.
+* [python in vscode](https://code.visualstudio.com/docs/python/editing)
+  * Incredible tricks and tips. 
 * [Key binding for VScode](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)
 * [Shortcuts in VScode](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
@@ -77,3 +80,8 @@ Insert mode. This is used to write and edit text.
 
 Upon creation of a file, vim is in command mode. Typing 'i' changed to insert mode.
 Pressing esc returns you to command mode.
+
+
+## Jupyter
+
+[How jupyter works and collaberating with it](https://www.youtube.com/watch?v=GQr1uMK74F4&ab_channel=PyData)
