@@ -9,7 +9,8 @@
 * keyboard maestro - automate anything on the mac
 * [Rectangle](https://rectangleapp.com/) maybe use this to replace divvy as its free and open source. 
 * Tinkertool - extra command line settings in a GUI
-* Alfred. [walkthrough](https://www.youtube.com/watch?v=YFAzSsrXu_0)
+* alfred. [walkthrough](https://www.youtube.com/watch?v=YFAzSsrXu_0)
+* quickshade - for dimming the screen more
 
 ## Settings
 For setting nighttime warmth. Settings -> display -> night shift

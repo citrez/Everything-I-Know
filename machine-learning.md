@@ -33,3 +33,6 @@ ML flow helps to manage end to end machine learning lifecycles. What does this a
 
 ## Links
 - [Video explaining MLflow and going through examples](https://www.youtube.com/watch?v=859OxXrt_TI)
+## feature engineering
+
+[feature-engine](https://feature-engine.readthedocs.io/en/1.3.x/index.html) is library that adds more feature engineering functionality to sklearns built ins.

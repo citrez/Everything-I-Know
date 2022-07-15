@@ -1,5 +1,5 @@
 ---
-description: You can never know enough about git. 
+author: You can never know enough about git. 
 ---
 
 # Git
