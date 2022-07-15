@@ -4,8 +4,11 @@
 I see these as like the blue print of classes. They set out methods that are needed in classes so that there is some type of consistency between classes that share similar structure. Classes inherit from the abstract base cless. The instances of a class that inherits from abstract base classes must contain all the methods defined in the abstract base class. 
 
 ## Python Packages
+turn into pakcage sub-page, including a discussion around how to make your own package
+
 > NOTE: Can think about turning these bullets into subpages if the bullets become too large.
 
+* p2j - for coverting python scripts to jupyter notebooks for exploration
 * [**BeautfulSoup**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a package for parsing html doucments. Extracting from them the bits you want. 
 [Beautfulsoup walkthrough](https://www.digitalocean.com/community/tutorials/how-to-work-with-web-data-using-requests-and-beautiful-soup-with-python-3)
 
@@ -158,7 +161,6 @@ A **module** is a bunch of related code saved in a file with the extension .py. 
 **Packages** are a directory of a collection of modules. Packages allow the hierarchical structure of the module namespace. Just like we organize our files on a hard drive into folders and sub-folders, we can organize our modules into packages and subpackages.
 
 A **library** is an umbrella term referring to a reusable chunk of code. Usually, a Python library contains a collection of related modules and packages. Actually, this term is often used interchangeably with “Python package” because packages can also contain modules and other packages (subpackages). However, it is often assumed that while a package is a collection of modules, a library is a collection of packages.
-
 [info from here](https://learnpython.com/blog/python-modules-packages-libraries-frameworks/)
 
 When a python module is imported, everything in it is run. Thats why the 
@@ -173,6 +175,7 @@ Storing passwords in python can be problematic, you dont want those collaberatin
 [Here](https://stackoverflow.com/a/53027302) is a stackoverflow discussion around the topic. 
 
 ## Creating Packages
+turn into 'packaging' subpage
 
 distutils is the inbuilt package that helps you build packages but it has really been superceded by setuptoolsl. The distutils package may be destined for depreciation. 
 
@@ -199,6 +202,8 @@ The setup.py file is what describes your pachage and tells setuptools how to pac
 [Exercise to create a small example package](https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html#exercise-a-small-example-package)
 
 [how to package a python](https://py-pkgs.org/03-how-to-package-a-python)
+
+Discussion about String Formatting Method Should to use, e.g f-strings, jinja templates, str.format() [link](https://engineeringfordatascience.com/posts/python_string_formatting_for_data_science/)
 
 ## Links
 

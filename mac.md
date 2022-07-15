@@ -11,6 +11,9 @@
 * Tinkertool - extra command line settings in a GUI
 * Alfred. [walkthrough](https://www.youtube.com/watch?v=YFAzSsrXu_0)
 
+## Settings
+For setting nighttime warmth. Settings -> display -> night shift
+
 ## Create a keyboard short to launch an App
 In automator I create a quick action, then I make a shortcut for that in settings -> keyboard -> shortcuts -> services.
 [how to](https://www.computerhope.com/issues/ch002051.htm)

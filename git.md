@@ -51,6 +51,8 @@ Delete a local branch once it has been used by `git branch -d feature` and you c
 
 ### Notes
 
+
+
 Head, Tags, Branches and remotes all just point to a commit, which are directories of blobs (the data stored in git). Commits are just snapshots of your directory at a given point in time. 
 
 You can pipe a diff into a file to see the difference  
@@ -80,6 +82,11 @@ See which commit head is pointing to using. `cat .git/HEAD`. `HEAD^` will take y
 [Addings SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 [add autocompletions to branchs, mac](https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-lin)
+
+`git remote prune origin` if you delete a branch in origin, you may still have that branch locally. 
+You can delete these branches locally using this command.
+
+`git rebase -i HEAD~3` [Squash the last X commits](https://www.baeldung.com/ops/git-squash-commits)
 
 ### Links
 

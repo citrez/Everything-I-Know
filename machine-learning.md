@@ -25,3 +25,11 @@ Pipelines are very useful for chaining together preprocessing steps (tranformers
 There is a nice consistency in sklearn. Things that have a .transform method are transformers, .fit() are estimators. 
 
 [Pipelines and custom transformers](https://towardsdatascience.com/pipelines-custom-transformers-in-scikit-learn-the-step-by-step-guide-with-python-code-4a7d9b068156)
+
+## MLflow
+ML flow helps to manage end to end machine learning lifecycles. What does this actually mean? It helps with the following
+- tracking experiments to compare and record model results
+- providing a central model store  to collaberatively manage  the full lifecycle, including model versioning 
+
+## Links
+- [Video explaining MLflow and going through examples](https://www.youtube.com/watch?v=859OxXrt_TI)
