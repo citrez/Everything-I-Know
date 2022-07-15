@@ -25,3 +25,7 @@ Pipelines are very useful for chaining together preprocessing steps (tranformers
 There is a nice consistency in sklearn. Things that have a .transform method are transformers, .fit() are estimators. 
 
 [Pipelines and custom transformers](https://towardsdatascience.com/pipelines-custom-transformers-in-scikit-learn-the-step-by-step-guide-with-python-code-4a7d9b068156)
+
+## feature engineering
+
+[feature-engine](https://feature-engine.readthedocs.io/en/1.3.x/index.html) is library that adds more feature engineering functionality to sklearns built ins.
